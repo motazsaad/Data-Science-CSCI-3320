@@ -1,0 +1,11 @@
+AI-ML Salaries/
+Failure Prediction of Elevator component/
+House Pricing in Tunisia/
+Oil Spill Classification/
+Predictive Maintenance/
+bike-share/
+e+ exchange data/
+fertility_rate_1960-2020/
+flight prices/
+health/
+list.txt
