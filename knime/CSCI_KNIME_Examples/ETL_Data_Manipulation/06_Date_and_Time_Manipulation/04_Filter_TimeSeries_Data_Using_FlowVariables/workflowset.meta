@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">iris.adae</met:element>
+<met:element form="date" read-only="false" name="Creation Date">19/8/2017/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Filter Timeseries Data Using Flow Variables
+
+This workflow demonstrates using flow variables in the date and time nodes. Here the use case is to filter the last full week of data. Hence if you execute the workflow on Wednesday you still only want to get the data until the last Saturday. We achieve this by first finding the last Sunday. This will be the enddate in our filter node. &#13;
+Afterwards we use the information as a flow variable in the Date&amp;Time-based Row Filter node.&#13;
+In addition we set the end of the filter to one week before the start date.&#13;
+
+
+TAGS: ETL,data manipulation,date,time</met:element>
+</met:KNIMEMetaInfo>

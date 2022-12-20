@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">kathrinmelcher</element><element xmlns="" form="date" name="Creation Date">20/5/2017/14:31:17 +02:00</element><element xmlns="" form="multiline" name="Comments">Logistic Regression 
+
+This workflow is an example of how to build a basic prediction / classification model using logistic regression.
+
+VIDEO: Logistic Regression Node: Algorithm Settings https://youtu.be/AclQdjxpGA0
+TAG: classification, machine learning, prediction, analytics, KNIME, logistic regression, logit, data science</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2017-09-28 11:58:57 +0200</element></KNIMEMetaInfo>

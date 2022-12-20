@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Adrian Nembach</element><element xmlns="" form="date" name="Creation Date">19/4/2016/15:18:26 +02:00</element><element xmlns="" form="multiline" name="Comments">Performing a k-Means clustering
+
+This workflow shows how to perform a clustering of the iris dataset using the k-Means node.
+
+TAG: clustering, k-Means, machine learning, data mining</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2016-05-30 15:32:30 +0200</element></KNIMEMetaInfo>

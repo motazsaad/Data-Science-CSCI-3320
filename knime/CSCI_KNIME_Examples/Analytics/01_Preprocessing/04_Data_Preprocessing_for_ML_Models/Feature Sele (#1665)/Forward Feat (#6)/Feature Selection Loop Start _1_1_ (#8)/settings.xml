@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Loop_0">
+            <entry key="type" type="xstring" value="loopcontext"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="maxIterations"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="4750"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="currentIteration"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="currentFeature"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="PCA dimension 0"/>
+        </config>
+        <config key="Loop_Execute_4">
+            <entry key="type" type="xstring" value="loopcontext_execute"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="maxIterations"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="4750"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="currentIteration"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="4749"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="currentFeature"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="AdjLand_Sale Condition"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="selectionStrategy" type="xbyte" value="0"/>
+        <entry key="ga_crossoverStrategy" type="xbyte" value="0"/>
+        <entry key="ga_selectionStrategy" type="xbyte" value="0"/>
+        <config key="constantColumnsFilterConfig">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="247"/>
+                <entry key="0" type="xstring" value="PCA dimension 0"/>
+                <entry key="1" type="xstring" value="PCA dimension 1"/>
+                <entry key="2" type="xstring" value="PCA dimension 2"/>
+                <entry key="3" type="xstring" value="PCA dimension 3"/>
+                <entry key="4" type="xstring" value="PCA dimension 4"/>
+                <entry key="5" type="xstring" value="PCA dimension 5"/>
+                <entry key="6" type="xstring" value="PCA dimension 6"/>
+                <entry key="7" type="xstring" value="PCA dimension 7"/>
+                <entry key="8" type="xstring" value="PCA dimension 8"/>
+                <entry key="9" type="xstring" value="PCA dimension 9"/>
+                <entry key="10" type="xstring" value="PCA dimension 10"/>
+                <entry key="11" type="xstring" value="PCA dimension 11"/>
+                <entry key="12" type="xstring" value="PCA dimension 12"/>
+                <entry key="13" type="xstring" value="PCA dimension 13"/>
+                <entry key="14" type="xstring" value="PCA dimension 14"/>
+                <entry key="15" type="xstring" value="PCA dimension 15"/>
+                <entry key="16" type="xstring" value="RL_MS Zoning"/>
+                <entry key="17" type="xstring" value="RH_MS Zoning"/>
+                <entry key="18" type="xstring" value="FV_MS Zoning"/>
+                <entry key="19" type="xstring" value="RM_MS Zoning"/>
+                <entry key="20" type="xstring" value="C (all)_MS Zoning"/>
+                <entry key="21" type="xstring" value="I (all)_MS Zoning"/>
+                <entry key="22" type="xstring" value="A (agr)_MS Zoning"/>
+                <entry key="23" type="xstring" value="Pave_Street"/>
+                <entry key="24" type="xstring" value="Grvl_Street"/>
+                <entry key="25" type="xstring" value="IR1_Lot Shape"/>
+                <entry key="26" type="xstring" value="Reg_Lot Shape"/>
+                <entry key="27" type="xstring" value="IR2_Lot Shape"/>
+                <entry key="28" type="xstring" value="IR3_Lot Shape"/>
+                <entry key="29" type="xstring" value="Lvl_Land Contour"/>
+                <entry key="30" type="xstring" value="HLS_Land Contour"/>
+                <entry key="31" type="xstring" value="Bnk_Land Contour"/>
+                <entry key="32" type="xstring" value="Low_Land Contour"/>
+                <entry key="33" type="xstring" value="AllPub_Utilities"/>
+                <entry key="34" type="xstring" value="NoSewr_Utilities"/>
+                <entry key="35" type="xstring" value="NoSeWa_Utilities"/>
+                <entry key="36" type="xstring" value="Corner_Lot Config"/>
+                <entry key="37" type="xstring" value="Inside_Lot Config"/>
+                <entry key="38" type="xstring" value="CulDSac_Lot Config"/>
+                <entry key="39" type="xstring" value="FR2_Lot Config"/>
+                <entry key="40" type="xstring" value="FR3_Lot Config"/>
+                <entry key="41" type="xstring" value="Gtl_Land Slope"/>
+                <entry key="42" type="xstring" value="Mod_Land Slope"/>
+                <entry key="43" type="xstring" value="Sev_Land Slope"/>
+                <entry key="44" type="xstring" value="NAmes_Neighborhood"/>
+                <entry key="45" type="xstring" value="Gilbert_Neighborhood"/>
+                <entry key="46" type="xstring" value="StoneBr_Neighborhood"/>
+                <entry key="47" type="xstring" value="NWAmes_Neighborhood"/>
+                <entry key="48" type="xstring" value="Somerst_Neighborhood"/>
+                <entry key="49" type="xstring" value="BrDale_Neighborhood"/>
+                <entry key="50" type="xstring" value="NPkVill_Neighborhood"/>
+                <entry key="51" type="xstring" value="NridgHt_Neighborhood"/>
+                <entry key="52" type="xstring" value="Blmngtn_Neighborhood"/>
+                <entry key="53" type="xstring" value="NoRidge_Neighborhood"/>
+                <entry key="54" type="xstring" value="SawyerW_Neighborhood"/>
+                <entry key="55" type="xstring" value="Sawyer_Neighborhood"/>
+                <entry key="56" type="xstring" value="Greens_Neighborhood"/>
+                <entry key="57" type="xstring" value="BrkSide_Neighborhood"/>
+                <entry key="58" type="xstring" value="OldTown_Neighborhood"/>
+                <entry key="59" type="xstring" value="IDOTRR_Neighborhood"/>
+                <entry key="60" type="xstring" value="ClearCr_Neighborhood"/>
+                <entry key="61" type="xstring" value="SWISU_Neighborhood"/>
+                <entry key="62" type="xstring" value="Edwards_Neighborhood"/>
+                <entry key="63" type="xstring" value="CollgCr_Neighborhood"/>
+                <entry key="64" type="xstring" value="Crawfor_Neighborhood"/>
+                <entry key="65" type="xstring" value="Blueste_Neighborhood"/>
+                <entry key="66" type="xstring" value="Mitchel_Neighborhood"/>
+                <entry key="67" type="xstring" value="Timber_Neighborhood"/>
+                <entry key="68" type="xstring" value="MeadowV_Neighborhood"/>
+                <entry key="69" type="xstring" value="Veenker_Neighborhood"/>
+                <entry key="70" type="xstring" value="GrnHill_Neighborhood"/>
+                <entry key="71" type="xstring" value="Landmrk_Neighborhood"/>
+                <entry key="72" type="xstring" value="Norm_Condition 1"/>
+                <entry key="73" type="xstring" value="Feedr_Condition 1"/>
+                <entry key="74" type="xstring" value="PosN_Condition 1"/>
+                <entry key="75" type="xstring" value="RRNe_Condition 1"/>
+                <entry key="76" type="xstring" value="RRAe_Condition 1"/>
+                <entry key="77" type="xstring" value="Artery_Condition 1"/>
+                <entry key="78" type="xstring" value="PosA_Condition 1"/>
+                <entry key="79" type="xstring" value="RRAn_Condition 1"/>
+                <entry key="80" type="xstring" value="RRNn_Condition 1"/>
+                <entry key="81" type="xstring" value="Norm_Condition 2"/>
+                <entry key="82" type="xstring" value="Feedr_Condition 2"/>
+                <entry key="83" type="xstring" value="PosA_Condition 2"/>
+                <entry key="84" type="xstring" value="PosN_Condition 2"/>
+                <entry key="85" type="xstring" value="Artery_Condition 2"/>
+                <entry key="86" type="xstring" value="RRNn_Condition 2"/>
+                <entry key="87" type="xstring" value="RRAe_Condition 2"/>
+                <entry key="88" type="xstring" value="RRAn_Condition 2"/>
+                <entry key="89" type="xstring" value="1Fam_Bldg Type"/>
+                <entry key="90" type="xstring" value="TwnhsE_Bldg Type"/>
+                <entry key="91" type="xstring" value="Twnhs_Bldg Type"/>
+                <entry key="92" type="xstring" value="Duplex_Bldg Type"/>
+                <entry key="93" type="xstring" value="2fmCon_Bldg Type"/>
+                <entry key="94" type="xstring" value="1Story_House Style"/>
+                <entry key="95" type="xstring" value="2Story_House Style"/>
+                <entry key="96" type="xstring" value="1.5Fin_House Style"/>
+                <entry key="97" type="xstring" value="SFoyer_House Style"/>
+                <entry key="98" type="xstring" value="SLvl_House Style"/>
+                <entry key="99" type="xstring" value="2.5Unf_House Style"/>
+                <entry key="100" type="xstring" value="1.5Unf_House Style"/>
+                <entry key="101" type="xstring" value="2.5Fin_House Style"/>
+                <entry key="102" type="xstring" value="Hip_Roof Style"/>
+                <entry key="103" type="xstring" value="Gable_Roof Style"/>
+                <entry key="104" type="xstring" value="Mansard_Roof Style"/>
+                <entry key="105" type="xstring" value="Gambrel_Roof Style"/>
+                <entry key="106" type="xstring" value="Shed_Roof Style"/>
+                <entry key="107" type="xstring" value="Flat_Roof Style"/>
+                <entry key="108" type="xstring" value="CompShg_Roof Matl"/>
+                <entry key="109" type="xstring" value="WdShake_Roof Matl"/>
+                <entry key="110" type="xstring" value="Tar&amp;Grv_Roof Matl"/>
+                <entry key="111" type="xstring" value="WdShngl_Roof Matl"/>
+                <entry key="112" type="xstring" value="Membran_Roof Matl"/>
+                <entry key="113" type="xstring" value="ClyTile_Roof Matl"/>
+                <entry key="114" type="xstring" value="Roll_Roof Matl"/>
+                <entry key="115" type="xstring" value="Metal_Roof Matl"/>
+                <entry key="116" type="xstring" value="BrkFace_Exterior 1st"/>
+                <entry key="117" type="xstring" value="VinylSd_Exterior 1st"/>
+                <entry key="118" type="xstring" value="Wd Sdng_Exterior 1st"/>
+                <entry key="119" type="xstring" value="CemntBd_Exterior 1st"/>
+                <entry key="120" type="xstring" value="HdBoard_Exterior 1st"/>
+                <entry key="121" type="xstring" value="Plywood_Exterior 1st"/>
+                <entry key="122" type="xstring" value="MetalSd_Exterior 1st"/>
+                <entry key="123" type="xstring" value="AsbShng_Exterior 1st"/>
+                <entry key="124" type="xstring" value="WdShing_Exterior 1st"/>
+                <entry key="125" type="xstring" value="Stucco_Exterior 1st"/>
+                <entry key="126" type="xstring" value="AsphShn_Exterior 1st"/>
+                <entry key="127" type="xstring" value="BrkComm_Exterior 1st"/>
+                <entry key="128" type="xstring" value="CBlock_Exterior 1st"/>
+                <entry key="129" type="xstring" value="PreCast_Exterior 1st"/>
+                <entry key="130" type="xstring" value="Stone_Exterior 1st"/>
+                <entry key="131" type="xstring" value="ImStucc_Exterior 1st"/>
+                <entry key="132" type="xstring" value="Stone_Mas Vnr Type"/>
+                <entry key="133" type="xstring" value="None_Mas Vnr Type"/>
+                <entry key="134" type="xstring" value="BrkFace_Mas Vnr Type"/>
+                <entry key="135" type="xstring" value="BrkCmn_Mas Vnr Type"/>
+                <entry key="136" type="xstring" value="CBlock_Mas Vnr Type"/>
+                <entry key="137" type="xstring" value="TA_Exter Qual"/>
+                <entry key="138" type="xstring" value="Gd_Exter Qual"/>
+                <entry key="139" type="xstring" value="Ex_Exter Qual"/>
+                <entry key="140" type="xstring" value="Fa_Exter Qual"/>
+                <entry key="141" type="xstring" value="TA_Exter Cond"/>
+                <entry key="142" type="xstring" value="Gd_Exter Cond"/>
+                <entry key="143" type="xstring" value="Fa_Exter Cond"/>
+                <entry key="144" type="xstring" value="Po_Exter Cond"/>
+                <entry key="145" type="xstring" value="Ex_Exter Cond"/>
+                <entry key="146" type="xstring" value="CBlock_Foundation"/>
+                <entry key="147" type="xstring" value="PConc_Foundation"/>
+                <entry key="148" type="xstring" value="Wood_Foundation"/>
+                <entry key="149" type="xstring" value="BrkTil_Foundation"/>
+                <entry key="150" type="xstring" value="Slab_Foundation"/>
+                <entry key="151" type="xstring" value="Stone_Foundation"/>
+                <entry key="152" type="xstring" value="TA_Bsmt Qual"/>
+                <entry key="153" type="xstring" value="Gd_Bsmt Qual"/>
+                <entry key="154" type="xstring" value="Ex_Bsmt Qual"/>
+                <entry key="155" type="xstring" value="Fa_Bsmt Qual"/>
+                <entry key="156" type="xstring" value="Po_Bsmt Qual"/>
+                <entry key="157" type="xstring" value="Gd_Bsmt Cond"/>
+                <entry key="158" type="xstring" value="TA_Bsmt Cond"/>
+                <entry key="159" type="xstring" value="Po_Bsmt Cond"/>
+                <entry key="160" type="xstring" value="Fa_Bsmt Cond"/>
+                <entry key="161" type="xstring" value="Ex_Bsmt Cond"/>
+                <entry key="162" type="xstring" value="Gd_Bsmt Exposure"/>
+                <entry key="163" type="xstring" value="No_Bsmt Exposure"/>
+                <entry key="164" type="xstring" value="Mn_Bsmt Exposure"/>
+                <entry key="165" type="xstring" value="Av_Bsmt Exposure"/>
+                <entry key="166" type="xstring" value="BLQ_BsmtFin Type 1"/>
+                <entry key="167" type="xstring" value="Rec_BsmtFin Type 1"/>
+                <entry key="168" type="xstring" value="ALQ_BsmtFin Type 1"/>
+                <entry key="169" type="xstring" value="GLQ_BsmtFin Type 1"/>
+                <entry key="170" type="xstring" value="Unf_BsmtFin Type 1"/>
+                <entry key="171" type="xstring" value="LwQ_BsmtFin Type 1"/>
+                <entry key="172" type="xstring" value="Unf_BsmtFin Type 2"/>
+                <entry key="173" type="xstring" value="LwQ_BsmtFin Type 2"/>
+                <entry key="174" type="xstring" value="BLQ_BsmtFin Type 2"/>
+                <entry key="175" type="xstring" value="Rec_BsmtFin Type 2"/>
+                <entry key="176" type="xstring" value="GLQ_BsmtFin Type 2"/>
+                <entry key="177" type="xstring" value="ALQ_BsmtFin Type 2"/>
+                <entry key="178" type="xstring" value="GasA_Heating"/>
+                <entry key="179" type="xstring" value="GasW_Heating"/>
+                <entry key="180" type="xstring" value="Grav_Heating"/>
+                <entry key="181" type="xstring" value="Wall_Heating"/>
+                <entry key="182" type="xstring" value="Floor_Heating"/>
+                <entry key="183" type="xstring" value="OthW_Heating"/>
+                <entry key="184" type="xstring" value="Fa_Heating QC"/>
+                <entry key="185" type="xstring" value="TA_Heating QC"/>
+                <entry key="186" type="xstring" value="Ex_Heating QC"/>
+                <entry key="187" type="xstring" value="Gd_Heating QC"/>
+                <entry key="188" type="xstring" value="Po_Heating QC"/>
+                <entry key="189" type="xstring" value="Y_Central Air"/>
+                <entry key="190" type="xstring" value="N_Central Air"/>
+                <entry key="191" type="xstring" value="SBrkr_Electrical"/>
+                <entry key="192" type="xstring" value="FuseA_Electrical"/>
+                <entry key="193" type="xstring" value="FuseF_Electrical"/>
+                <entry key="194" type="xstring" value="FuseP_Electrical"/>
+                <entry key="195" type="xstring" value="Mix_Electrical"/>
+                <entry key="196" type="xstring" value="TA_Kitchen Qual"/>
+                <entry key="197" type="xstring" value="Gd_Kitchen Qual"/>
+                <entry key="198" type="xstring" value="Ex_Kitchen Qual"/>
+                <entry key="199" type="xstring" value="Fa_Kitchen Qual"/>
+                <entry key="200" type="xstring" value="Po_Kitchen Qual"/>
+                <entry key="201" type="xstring" value="Typ_Functional"/>
+                <entry key="202" type="xstring" value="Mod_Functional"/>
+                <entry key="203" type="xstring" value="Min1_Functional"/>
+                <entry key="204" type="xstring" value="Min2_Functional"/>
+                <entry key="205" type="xstring" value="Maj1_Functional"/>
+                <entry key="206" type="xstring" value="Maj2_Functional"/>
+                <entry key="207" type="xstring" value="Sev_Functional"/>
+                <entry key="208" type="xstring" value="Sal_Functional"/>
+                <entry key="209" type="xstring" value="Attchd_Garage Type"/>
+                <entry key="210" type="xstring" value="BuiltIn_Garage Type"/>
+                <entry key="211" type="xstring" value="Basment_Garage Type"/>
+                <entry key="212" type="xstring" value="Detchd_Garage Type"/>
+                <entry key="213" type="xstring" value="CarPort_Garage Type"/>
+                <entry key="214" type="xstring" value="2Types_Garage Type"/>
+                <entry key="215" type="xstring" value="Fin_Garage Finish"/>
+                <entry key="216" type="xstring" value="Unf_Garage Finish"/>
+                <entry key="217" type="xstring" value="RFn_Garage Finish"/>
+                <entry key="218" type="xstring" value="TA_Garage Qual"/>
+                <entry key="219" type="xstring" value="Fa_Garage Qual"/>
+                <entry key="220" type="xstring" value="Gd_Garage Qual"/>
+                <entry key="221" type="xstring" value="Ex_Garage Qual"/>
+                <entry key="222" type="xstring" value="Po_Garage Qual"/>
+                <entry key="223" type="xstring" value="TA_Garage Cond"/>
+                <entry key="224" type="xstring" value="Fa_Garage Cond"/>
+                <entry key="225" type="xstring" value="Gd_Garage Cond"/>
+                <entry key="226" type="xstring" value="Ex_Garage Cond"/>
+                <entry key="227" type="xstring" value="Po_Garage Cond"/>
+                <entry key="228" type="xstring" value="P_Paved Drive"/>
+                <entry key="229" type="xstring" value="Y_Paved Drive"/>
+                <entry key="230" type="xstring" value="N_Paved Drive"/>
+                <entry key="231" type="xstring" value="WD_Sale Type"/>
+                <entry key="232" type="xstring" value="New_Sale Type"/>
+                <entry key="233" type="xstring" value="COD_Sale Type"/>
+                <entry key="234" type="xstring" value="ConLI_Sale Type"/>
+                <entry key="235" type="xstring" value="Con_Sale Type"/>
+                <entry key="236" type="xstring" value="ConLD_Sale Type"/>
+                <entry key="237" type="xstring" value="Oth_Sale Type"/>
+                <entry key="238" type="xstring" value="ConLw_Sale Type"/>
+                <entry key="239" type="xstring" value="CWD_Sale Type"/>
+                <entry key="240" type="xstring" value="VWD_Sale Type"/>
+                <entry key="241" type="xstring" value="Normal_Sale Condition"/>
+                <entry key="242" type="xstring" value="Partial_Sale Condition"/>
+                <entry key="243" type="xstring" value="Family_Sale Condition"/>
+                <entry key="244" type="xstring" value="Abnorml_Sale Condition"/>
+                <entry key="245" type="xstring" value="Alloca_Sale Condition"/>
+                <entry key="246" type="xstring" value="AdjLand_Sale Condition"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="SalePrice"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="nrFeatureThreshold" type="xint" value="20"/>
+        <entry key="nrFeatureLowerBound" type="xint" value="-1"/>
+        <entry key="nrFeatureUpperBound" type="xint" value="-1"/>
+        <entry key="popSize" type="xint" value="20"/>
+        <entry key="maxNumGenerations" type="xint" value="10"/>
+        <entry key="useRandomSeed" type="xboolean" value="false"/>
+        <entry key="randomSeed" type="xlong" value="1630063831315"/>
+        <entry key="survivorsFraction" type="xdouble" value="0.4"/>
+        <entry key="crossoverRate" type="xdouble" value="0.6"/>
+        <entry key="mutationRate" type="xdouble" value="0.01"/>
+        <entry key="elitismRate" type="xdouble" value="0.1"/>
+        <entry key="earlyStopping" type="xint" value="-1"/>
+        <entry key="maxNumIterations" type="xint" value="50"/>
+        <entry key="earlyStoppingRandom" type="xint" value="-1"/>
+        <entry key="earlyStoppingTolerance" type="xdouble" value="0.01"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Configure your set%%00013%%00010of columns here"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="107"/>
+        <entry key="y-coordinate" type="xint" value="259"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.meta.feature.selection.FeatureSelectionLoopStartNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Feature Selection Loop Start (1:1)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.2.v202110181012"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.2.v202110181012"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Feature Selection Loop Start (1:1)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2232, Cols: 21"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="bf5c030d-2c4c-48d4-8f1d-da72bb1fcc9f"/>
+    </config>
+</config>

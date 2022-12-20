@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">1/0/1970/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Music Recommendations
+
+This workflow takes social media data from a popular music site and uses predictive analytics to make music preference recommendations for the top artists.  In addition, the workflow creates a multimedia report that shows the top artists and the other musicians associated with each in the form “Others who like X also like….”. We do this by performing an advanced association analysis and utilizing the resulting statistics to select lists of artists and recommendations. We then combine this list with overall facts about the sample and enhance the artist data with pictures to create a dynamic multi-media report. The dataset contains social networking, tagging, and music artist listening information from a set of 2K users from Last.fm online music system (http://www.last.fm).&#xd;
+&#xd;
+&#xd;
+
+
+URL: Last.fm http://www.last.fm
+URL: Recommendation Engine for Retailers https://www.knime.com/recommendation-engine-for-retailers
+URL: Social Media Music Recommendation https://www.knime.com/knime-applications/lastfm-recommodation
+TAGS: Recommendation engine,Association rules</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-09 13:55:02 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-09 09:52:13 +0100</element></KNIMEMetaInfo>

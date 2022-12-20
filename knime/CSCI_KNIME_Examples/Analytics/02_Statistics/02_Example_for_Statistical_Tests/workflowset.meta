@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">Adrian Nembach</met:element>
+  <met:element form="date" name="Creation Date">9/11/2015/11:16:1 +01:00</met:element>
+  <met:element form="multiline" name="Comments">How to use the statistical test in the KNIME Labs statistics plugin
+
+This workflow shows how to use the nodes for the Wilcoxon Mann Whitney test, the Wilcoxon signed-rank test and the Kruskal-Wallis test.
+
+URL: Wikipedia entry for Wilcoxon Mann Whitney test https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test
+URL: Wikipedia entry for Wilcoxon signed-rank test https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test
+URL: Wikipedia entry for Kruskal-Wallis test https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2019-02-22 20:43:49 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2016-03-22 18:07:24 +0100</met:element>
+</met:KNIMEMetaInfo>

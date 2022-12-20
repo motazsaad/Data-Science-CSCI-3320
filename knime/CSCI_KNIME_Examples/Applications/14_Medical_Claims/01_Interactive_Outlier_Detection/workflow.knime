@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+<entry key="created_by" type="xstring" value="4.1.0.v201912201424"/>
+<entry key="created_by_nightly" type="xboolean" value="false"/>
+<entry key="version" type="xstring" value="4.1.0"/>
+<entry key="name" type="xstring" isnull="true" value=""/>
+<config key="authorInformation">
+<entry key="authored-by" type="xstring" value="wiswedel"/>
+<entry key="authored-when" type="xstring" value="2014-10-01 10:25:36 +0200"/>
+<entry key="lastEdited-by" type="xstring" value="Maarit Laukkanen"/>
+<entry key="lastEdited-when" type="xstring" value="2020-01-10 15:57:44 +0100"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="workflow_credentials"/>
+<config key="annotations">
+<config key="annotation_0">
+<entry key="text" type="xstring" value="Configure component to prefilter the input data"/>
+<entry key="bgcolor" type="xint" value="15724527"/>
+<entry key="x-coordinate" type="xint" value="300"/>
+<entry key="y-coordinate" type="xint" value="200"/>
+<entry key="width" type="xint" value="126"/>
+<entry key="height" type="xint" value="261"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16737792"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="0"/>
+<entry key="length" type="xint" value="47"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="annotation_1">
+<entry key="text" type="xstring" value="Standard preprocessing e.g. label replacement"/>
+<entry key="bgcolor" type="xint" value="15724527"/>
+<entry key="x-coordinate" type="xint" value="148"/>
+<entry key="y-coordinate" type="xint" value="200"/>
+<entry key="width" type="xint" value="138"/>
+<entry key="height" type="xint" value="261"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16737792"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="0"/>
+<entry key="length" type="xint" value="45"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="annotation_2">
+<entry key="text" type="xstring" value="Configure components to select the group values e.g. diseases to get the detailed information for"/>
+<entry key="bgcolor" type="xint" value="15724527"/>
+<entry key="x-coordinate" type="xint" value="620"/>
+<entry key="y-coordinate" type="xint" value="100"/>
+<entry key="width" type="xint" value="169"/>
+<entry key="height" type="xint" value="481"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16737792"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="0"/>
+<entry key="length" type="xint" value="97"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="annotation_3">
+<entry key="text" type="xstring" value="Configure components to specify the group and outlier columns e.g. disease and payment amount as well as the outlier factor"/>
+<entry key="bgcolor" type="xint" value="15724527"/>
+<entry key="x-coordinate" type="xint" value="440"/>
+<entry key="y-coordinate" type="xint" value="100"/>
+<entry key="width" type="xint" value="169"/>
+<entry key="height" type="xint" value="481"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16737792"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="0"/>
+<entry key="length" type="xint" value="123"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="annotation_4">
+<entry key="text" type="xstring" value="General Information%%00013%%00010Press the green double arrow above to run the complete workflow. %%00013%%00010The grey nodes are components that contain a sub workflow which you can inspect and change to your needs by doing a Ctrl+ double-click. When you inspect a component you will find configuration nodes which are used to pass settings to subsequent nodes. In order to change the preset settings select &quot;Configure&quot; in the component's context menu, or simply double click the component.%%00013%%00010The File Reader node uses a workflow relative path to read the 2008_BSA_Inpatient_Claims_PUF file which is located in the data folder inside the workflow folder. The workflow uses shared components to prevent duplication of logic. This makes the maintenance of the workflow simpler because changes to one of the shared components are reflected by its counterparts.%%00013%%00010%%00013%%00010Data Description%%00013%%00010The workflow analyses the Basic Stand Alone (BSA) Inpatient Public Use Files (PUF) named “CMS 2008 BSA Inpatient Claims PUF” with information from 2008 Medicare inpatient claims. This is a claim-level file in which each record is an inpatient claim incurred by a 5% sample of Medicare beneficiaries. There are some demographic and claim-related variables provided in this PUF as detailed below. However, as beneficiary identities are not provided, it is not possible to link claims that belong to the same beneficiary in the CMS 2008 BSA Inpatient Claims PUF.%%00013%%00010%%00013%%00010Data fields:%%00013%%00010The file contains seven (7) variables: A primary claim key indexing the records and six (6) analytic variables, listed below. One of the analytic variables, claim cost, is provided in two forms, (a) as an integer category and (b) as a dollar average. These two versions are essentially equivalent. As they can be treated as one variable, there are six (6) rather than seven (7) analytic variables, in addition to the claim ID. %%00013%%000101.) Primary claim key%%00013%%000102.)  Age (BENE_AGE_CAT_CD), the beneficiary's age, reported in six categories: (1) under 65, (2) 65 - 69, (3) 70 - 74, (4) 75-79, (5) 80-84, (6) 85 and above.%%00013%%000103.) Gender (BENE_SEX_IDENT_CD), (1) male or (2) female.%%00013%%000104.) Base DRG (IP_CLM_BASE_DRG_CD): This is a set of 311 possible codes, numbered 1 - 311, derived from MS-DRG codes. It identifies a basic diagnosis or a set of diagnoses. A base DRG code might be comprised of up to three MS-DRG codes.%%00013%%000105.) ICD-9 primary procedure code (IP_CLM_ICD9_PRCDR_CD): “International Classification of Diseases” version 9. This is a two-digit code reported as 00 - 99. In the PUF, 85 such codes are observed. This is the only variable that has “missing” values (about 47% missing) meaning that there does not exist a primary procedure on the claim.%%00013%%000106.) Length (IP_CLM_DAYS_CD), the length of stay reported in four categories: (1) 1 day, (2) 2 - 4 days, (3) 5 - 7 days, and (4) 8 or more days%%00013%%000107.) Amount (IP_DRG_QUINT_PMT_AVG and IP_DRG_QUINT_PMT_CD): This has (up to) five (5) categories for each base DRG code. Within each base DRG code, the original claim amounts in the entire population (except negative payments) are broken into approximate quintiles (identified by IP_DRG_QUINT_PMT_CD from 1 - 5)."/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="28"/>
+<entry key="y-coordinate" type="xint" value="600"/>
+<entry key="width" type="xint" value="761"/>
+<entry key="height" type="xint" value="581"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16766985"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="0"/>
+<entry key="length" type="xint" value="19"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="1"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_1">
+<entry key="start" type="xint" value="19"/>
+<entry key="length" type="xint" value="2"/>
+<entry key="fontname" type="xstring" value="Segoe UI"/>
+<entry key="fontstyle" type="xint" value="1"/>
+<entry key="fontsize" type="xint" value="11"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_2">
+<entry key="start" type="xint" value="21"/>
+<entry key="length" type="xint" value="817"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_3">
+<entry key="start" type="xint" value="838"/>
+<entry key="length" type="xint" value="16"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="1"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_4">
+<entry key="start" type="xint" value="854"/>
+<entry key="length" type="xint" value="2"/>
+<entry key="fontname" type="xstring" value="Segoe UI"/>
+<entry key="fontstyle" type="xint" value="1"/>
+<entry key="fontsize" type="xint" value="11"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_5">
+<entry key="start" type="xint" value="856"/>
+<entry key="length" type="xint" value="563"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_6">
+<entry key="start" type="xint" value="1419"/>
+<entry key="length" type="xint" value="12"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="1"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+<config key="style_7">
+<entry key="start" type="xint" value="1431"/>
+<entry key="length" type="xint" value="1701"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="annotation_5">
+<entry key="text" type="xstring" value="The goal of the workflow is to identify outliers in the medical claim data, such as claims with an unusual high cost for a certain disease. "/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="20"/>
+<entry key="y-coordinate" type="xint" value="40"/>
+<entry key="width" type="xint" value="761"/>
+<entry key="height" type="xint" value="41"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="4"/>
+<entry key="borderColor" type="xint" value="16766985"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+</config>
+<config key="nodes">
+<config key="node_0">
+<entry key="id" type="xint" value="0"/>
+<entry key="node_settings_file" type="xstring" value="Details for (#0)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="692"/>
+<entry key="1" type="xint" value="397"/>
+<entry key="2" type="xint" value="104"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_1">
+<entry key="id" type="xint" value="1"/>
+<entry key="node_settings_file" type="xstring" value="File Reader (#1)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="64"/>
+<entry key="1" type="xint" value="297"/>
+<entry key="2" type="xint" value="69"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_2">
+<entry key="id" type="xint" value="2"/>
+<entry key="node_settings_file" type="xstring" value="Preprocess L (#2)/workflow.knime"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="MetaNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="204"/>
+<entry key="1" type="xint" value="297"/>
+<entry key="2" type="xint" value="118"/>
+<entry key="3" type="xint" value="65"/>
+</config>
+</config>
+</config>
+<config key="node_3">
+<entry key="id" type="xint" value="3"/>
+<entry key="node_settings_file" type="xstring" value="Parameterize (#3)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="344"/>
+<entry key="1" type="xint" value="297"/>
+<entry key="2" type="xint" value="92"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
+<config key="node_132">
+<entry key="id" type="xint" value="132"/>
+<entry key="node_settings_file" type="xstring" value="Single Colum (#132)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="512"/>
+<entry key="1" type="xint" value="237"/>
+<entry key="2" type="xint" value="104"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
+<config key="node_133">
+<entry key="id" type="xint" value="133"/>
+<entry key="node_settings_file" type="xstring" value="Details for (#133)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="692"/>
+<entry key="1" type="xint" value="237"/>
+<entry key="2" type="xint" value="104"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_137">
+<entry key="id" type="xint" value="137"/>
+<entry key="node_settings_file" type="xstring" value="Pair Column (#137)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="512"/>
+<entry key="1" type="xint" value="397"/>
+<entry key="2" type="xint" value="104"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
+</config>
+<config key="connections">
+<config key="connection_0">
+<entry key="sourceID" type="xint" value="1"/>
+<entry key="destID" type="xint" value="2"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="0"/>
+</config>
+<config key="connection_1">
+<entry key="sourceID" type="xint" value="2"/>
+<entry key="destID" type="xint" value="3"/>
+<entry key="sourcePort" type="xint" value="0"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_2">
+<entry key="sourceID" type="xint" value="3"/>
+<entry key="destID" type="xint" value="132"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_3">
+<entry key="sourceID" type="xint" value="3"/>
+<entry key="destID" type="xint" value="137"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_4">
+<entry key="sourceID" type="xint" value="132"/>
+<entry key="destID" type="xint" value="133"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_5">
+<entry key="sourceID" type="xint" value="132"/>
+<entry key="destID" type="xint" value="133"/>
+<entry key="sourcePort" type="xint" value="2"/>
+<entry key="destPort" type="xint" value="2"/>
+</config>
+<config key="connection_6">
+<entry key="sourceID" type="xint" value="132"/>
+<entry key="destID" type="xint" value="133"/>
+<entry key="sourcePort" type="xint" value="3"/>
+<entry key="destPort" type="xint" value="3"/>
+</config>
+<config key="connection_7">
+<entry key="sourceID" type="xint" value="137"/>
+<entry key="destID" type="xint" value="0"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_8">
+<entry key="sourceID" type="xint" value="137"/>
+<entry key="destID" type="xint" value="0"/>
+<entry key="sourcePort" type="xint" value="2"/>
+<entry key="destPort" type="xint" value="2"/>
+</config>
+<config key="connection_9">
+<entry key="sourceID" type="xint" value="137"/>
+<entry key="destID" type="xint" value="0"/>
+<entry key="sourcePort" type="xint" value="3"/>
+<entry key="destPort" type="xint" value="3"/>
+</config>
+</config>
+<config key="workflow_editor_settings">
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
+<entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>
+<entry key="workflow.editor.gridX" type="xint" value="20"/>
+<entry key="workflow.editor.gridY" type="xint" value="20"/>
+<entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+<entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
+<entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
+</config>
+</config>

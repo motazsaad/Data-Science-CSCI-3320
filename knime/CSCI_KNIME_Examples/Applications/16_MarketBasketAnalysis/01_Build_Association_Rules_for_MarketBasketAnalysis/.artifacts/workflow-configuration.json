@@ -1,0 +1,8 @@
+
+{
+    "MinSupport-114": {
+        "label": "Minimum Support",
+        "type": "number",
+        "default": 2.5
+    }
+}

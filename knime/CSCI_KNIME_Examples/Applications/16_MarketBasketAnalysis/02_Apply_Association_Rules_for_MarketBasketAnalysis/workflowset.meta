@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">rosy</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">23/2/2015/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">Market Basket Analysis: Apply Association Rules
+
+This workflow takes pre-built association rules and applies them to a new set of data&#13;
+&#13;
+&#13;
+    1. Read Association Rules and Product data&#13;
+    2. Read content of current basket&#13;
+    3. Calculate total price of basket content&#13;
+    4. In rule Antecedents find closest match to current basket content&#13;
+    5. Find top matching rules in terms of:&#13;
+          - highest support, &#13;
+          - highest confidence, &#13;
+          - highest revenue&#13;
+    6. Export recommendation and basket price to report&#13;
+&#13;
+How to open the report&#13;
+In order to see the report execute the entire workflow and then click "Open the report" button in the toolbar.&#13;
+
+
+URL: Market Basket Analysis and Recommandation Engines https://www.knime.org/knime-applications/market-basket-analysis-and-recommendation-engines
+BLOG: Market Basket Analysis and Recommandation Engines https://www.knime.org/blog/market-basket-analysis-and-recommendation-engines
+TAGS: retail,association rules,recommandation engine,market basket analysis,MBA,Apriori algorithm,Borgelt,data collection,Quickform,deployment,supply chain,Practicing Data Science</met:element>
+</met:KNIMEMetaInfo>

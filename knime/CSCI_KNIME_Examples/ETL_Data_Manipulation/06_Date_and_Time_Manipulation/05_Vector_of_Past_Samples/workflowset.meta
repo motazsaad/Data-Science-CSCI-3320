@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">&lt;unknown&gt;</met:element>
+<met:element form="date" read-only="false" name="Creation Date">1/0/1970/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Build Vector of Past Samples
+
+Read the dataset from the file clustered hourly_values_all.csv.&#13;
+Select one of the cluster time series.&#13;
+Transform column “row ID” in a Date&amp;Time type.&#13;
+Now use the Lag Column node to build the vector of 10 past samples for each time t.&#13;
+&#13;
+
+
+VIDEO: www.youtube.com/watch?v=pR_7pIEqW-c https://www.youtube.com/watch?v=pR_7pIEqW-c
+TAGS: Time Series Analysis,Date,Time,DateTime,Lag Column,Time Series,ETL</met:element>
+</met:KNIMEMetaInfo>

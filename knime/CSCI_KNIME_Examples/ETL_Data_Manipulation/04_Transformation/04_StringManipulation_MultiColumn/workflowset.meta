@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="date" read-only="false" name="Creation Date">11/6/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">String Manipulation (Multi Column)
+
+This workflow shows three different string manipulation on multiple columns, namely: &#13;
+- capitalize all String type columns&#13;
+- replace "-" with a space in six columns &#13;
+- transform all String type columns containing numbers into Double type
+
+TAGS: ETL,data manipulation,string manipulation,string manipulation multi column</met:element>
+</met:KNIMEMetaInfo>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Adrian Nembach</element><element xmlns="" form="date" name="Creation Date">10/5/2016/11:55:25 +02:00</element><element xmlns="" form="multiline" name="Comments">Performing a forward feature selection
+
+This workflow shows how to perform a forward feature selection on the iris data set using the preconfigured Forward Feature Selection meta node.
+
+TAG: feature selection, feature elimination, forward feature selection, dimension reduction</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2016-09-06 11:03:17 +0200</element></KNIMEMetaInfo>

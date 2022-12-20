@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">Lada.Rudnitckaia</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">18/7/2021/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">Data Preprocessing for ML Models 
+
+This workflow demonstrates the following standard preprocessing steps before training a machine learning model:&#13;
+- Partitioning&#13;
+- Outlier detection&#13;
+- Missing value handling&#13;
+- Dimensionality reduction&#13;
+- Conversion&#13;
+- Feature selection&#13;
+&#13;
+
+
+URL: House Prices Dataset https://www.kaggle.com/marcopale/housing
+TAGS: preprocessing,partitioning,outlier detection,missing value,PCA,encoding,conversion,forward feature selection,machine learning,ML</met:element>
+</met:KNIMEMetaInfo>

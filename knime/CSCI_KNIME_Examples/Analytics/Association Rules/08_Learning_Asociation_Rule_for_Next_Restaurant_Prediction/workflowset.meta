@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Marc</element><element xmlns="" form="date" name="Creation Date">20/5/2018/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Recommending Restaurants Using Association Rules 
+
+In this workflow we demonstrate how to use the KNIME Spark nodes for giving locality recommendations. For this we are using the Yelp reviews as provided by the Kaggle challenge (https://www.kaggle.com/yelp-dataset/yelp-dataset). We wanted to find good next localities (e.g., restaurants) for everyone who to date only gave one review.
+
+
+URL: Yelp dataset https://www.kaggle.com/yelp-dataset/yelp-dataset
+TAGS: recommendation engine,retail,supply chain,Spark,Oracle,DB</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 21:25:08 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-13 14:22:30 -0600</element></KNIMEMetaInfo>

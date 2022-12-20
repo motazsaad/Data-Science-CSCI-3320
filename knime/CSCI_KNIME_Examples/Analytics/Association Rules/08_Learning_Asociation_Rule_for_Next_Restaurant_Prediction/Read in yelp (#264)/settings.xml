@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="408"/>
+        <entry key="y-coordinate" type="xint" value="639"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="File Reader 4:264:0:2: Component does not have input data, execute upstream nodes first%%00010Status: Error: Read in yelp_reviews.csv 4:264%%00010  Status: Error: Node &quot;Parquet Writer&quot; not available from extension &quot;KNIME Extension for Big Data File Formats&quot; (provided by &quot;KNIME AG, Zurich, Switzerland&quot;; plugin &quot;org.knime.bigdata.fileformats&quot; is not installed)%%00010  Status: Error: Node &quot;Parquet to Spark&quot; not available from extension &quot;KNIME Extension for Apache Spark&quot; (provided by &quot;KNIME AG, Zurich, Switzerland&quot;; plugin &quot;org.knime.bigdata.spark.node&quot; is not installed)%%00010  Status: Error: Unable to load additional factory settings into node factory (node &quot;class &quot;Optional[org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory]&quot; [node name: &quot;Component Input&quot;, bundle-symbolic-name: org.knime.core, bundle-name: KNIME Core API, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.base.feature.group, feature-name: KNIME Core,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.0.v201912201424]&quot;)%%00010  Status: Error: Unable to load additional factory settings into node factory (node &quot;class &quot;Optional[org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory]&quot; [node name: &quot;Component Output&quot;, bundle-symbolic-name: org.knime.core, bundle-name: KNIME Core API, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.base.feature.group, feature-name: KNIME Core,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.0.v201912201424]&quot;)%%00010  Status: Error: Post-load error (ClassCastException): class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @691124ee)%%00010  Status: Error: Virtual output node is not of expected type (expected org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel, actual org.knime.core.node.missing.MissingNodeModel) - creating new instance (ID 257)%%00010  Status: Error: Virtual input node is not of expected type (expected org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeModel, actual org.knime.core.node.missing.MissingNodeModel) - creating new instance (ID 258)"/>
+    </config>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="258"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.port.ConnectionInformationPortObject"/>
+            </config>
+        </config>
+        <config key="inport_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="257"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value=""/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

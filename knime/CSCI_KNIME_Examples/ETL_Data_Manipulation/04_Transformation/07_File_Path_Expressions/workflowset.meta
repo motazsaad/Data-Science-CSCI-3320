@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">Tobias Koetter</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">3/5/2022/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">File Path Expressions Example
+
+This workflow demonstrates the usage of various path expressions. It first creates a file for all group members. The created files are added to a zip file with a timestamp and deleted afterwards.&#13;
+&#13;
+
+
+TAGS: IO,Expressions,File Handling,Release 4.6</met:element>
+</met:KNIMEMetaInfo>

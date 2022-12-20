@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">wiswedel</element><element xmlns="" form="date" name="Creation Date">1/9/2014/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Outlier Detection in Medical Claims
+
+This workflow identifies outliers in medical claim data such as claims with an unusual high cost for a certain disease. Firstly, the input data is group by the target column (disease). Secondly, the interquartile range (IQR), i.e. the difference between the 3rd and 1st quartile, is computed for the numerical column in question (cost). Outliers are all records that do not lie inside the permitted interval IQR +/- k*IQR, where the factor k is specified by the analyst. The target and numerical columns can be defined in the configuration dialogs of the components. The lower branch of the workflow is a refinement of this approach and allows for identifying outliers across several target columns e.g. an unusual high/low duration of days staid for a certain disease and payment amount. &#xd;
+
+
+URL: 2008_BSA_Inpatient_Claims_PUF data https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/BSAPUFS/Inpatient_Claims
+URL: Outlier Detection in Medical Claims https://www.knime.com/knime-applications/outlier-detection-in-medical-claims
+TAGS: Fraud detection,outlier detection</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-10 15:59:05 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-10 15:57:44 +0100</element></KNIMEMetaInfo>

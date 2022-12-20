@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Adrian Nembach</element><element xmlns="" form="date" name="Creation Date">8/11/2015/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">How to Use the Simple Regression Tree
+
+This workflow illustrates how to use the Simple Regression Tree nodes to predict the value of a numerical target column.
+
+URL: Regression Tree https://en.wikipedia.org/wiki/Decision_tree_learning
+TAGS: IoT,Internet of Things,Simple Regression Tree</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-07 15:44:51 -0600</element></KNIMEMetaInfo>

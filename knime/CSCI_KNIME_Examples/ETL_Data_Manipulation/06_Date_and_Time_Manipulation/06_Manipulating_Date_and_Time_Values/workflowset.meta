@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit</met:element>
+<met:element form="date" read-only="false" name="Creation Date">4/8/2019/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Manipulating Date&amp;Time Values
+
+This workflow shows examples of the following operations on date and time values:&#13;
+- Converting date and time values from String to Date&amp;Time&#13;
+- Removing time from Date&amp;Time values, adding a date to time values, and changing the time zone in Date&amp;Time values with time zone&#13;
+- Extracting granularities (years, months, etc.) from Date&amp;Time values&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+
+
+VIDEO: String to Date&amp;Time Node https://youtu.be/uNgaEGzetkU
+VIDEO: Extract Date&amp;Time Fields Node https://youtu.be/Iur4s3gf6zc
+VIDEO: Modify Date/Time/Time Zone Nodes https://youtu.be/Jsub-KG5qyw
+TAGS: data manipulation,ETL,data transformation,date,time,time zone,granularity,date format,data cleaning,e-learning,type conversion,preprocessing</met:element>
+</met:KNIMEMetaInfo>

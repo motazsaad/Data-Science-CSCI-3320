@@ -1,0 +1,23 @@
+
+{
+    "epsilon-833": {
+        "label": "Epsilon",
+        "type": "number",
+        "default": 1.5
+    },
+    "k-830": {
+        "label": "Interquartile range multiplier (k)",
+        "type": "number",
+        "default": 1.5
+    },
+    "MinPts-832": {
+        "label": "Minimum Points",
+        "type": "integer",
+        "default": 3
+    },
+    "z-831": {
+        "label": "Outlier Threshold",
+        "type": "number",
+        "default": 2.5
+    }
+}

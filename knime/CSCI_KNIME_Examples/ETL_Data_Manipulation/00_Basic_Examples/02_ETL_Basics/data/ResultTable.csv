@@ -1,0 +1,15 @@
+"product","country","date","quantity","amount","Cust_ID","Unique concatenate(country)","Sum(amount)"
+"prod_3","USA","2009-05-20",20,1600,"Cust_3","USA",6180
+"prod_1","USA","2009-07-04",2,70,"Cust_3","USA",6180
+"prod_3","USA","2009-08-20",20,1600,"Cust_3","USA",6180
+"prod_3","USA","2010-01-03",20,1600,"Cust_3","USA",6180
+"prod_3","Germany","2010-01-13",1,80,"Cust_4","Germany",1090
+"prod_3","USA","2010-03-17",1,80,"Cust_3","USA",6180
+"prod_2","Germany","2010-03-31",5,200,"Cust_4","Germany",1090
+"prod_2","USA","2010-04-22",10,400,"Cust_3","USA",6180
+"prod_2","USA","2010-07-07",12,480,"Cust_3","USA",6180
+"prod_1","USA","2011-01-10",10,350,"Cust_3","USA",6180
+"prod_2","Germany","2011-02-11",1,40,"Cust_4","Germany",1090
+"prod_1","Germany","2011-03-06",10,350,"Cust_4","Germany",1090
+"prod_1","Germany","2011-03-18",1,35,"Cust_4","Germany",1090
+"prod_1","Germany","2011-03-20",11,385,"Cust_4","Germany",1090

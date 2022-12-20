@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="node.script_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="node.script" type="xstring" value="%%00010%%00010#1. Parameter selection%%00010%%00010%%00010#Select the parameter of interest%%00010%%00010%%00010selReadouts = c(&quot;Col0&quot;)%%00010%%00010useFlowVarSelReadouts&lt;-FALSE%%00010flowVariableSelReadouts&lt;-NA%%00010%%00010%%00010#2. r-code%%00010%%00010#2.0 load libaries%%00010%%00010#2.1 manage RGG to R: define as numbers%%00010%%00010#2.2 manage RGG to R: set scales to default and check scales%%00010if (useFlowVarSelReadouts) selReadouts &lt;- flowVariableSelReadouts%%00010%%00010#3. calculate%%00010#allResults &lt;- list()%%00010# iterate over all parameters and create plots for all of them%%00010#ret &lt;- apply(selReadouts, FUN = function (param) {%%00010#%%00009plotVar = eval(parse(text = paste(&quot;kIn$\&quot;&quot;, param, &quot;\&quot;&quot;, sep = '')))%%00010%%00009#remove NA (shaper test allows only maximum of 5000 NA)%%00010#%%00009plotVar &lt;- plotVar[which(!is.na(plotVar))]%%00010%%00010%%00009# do the test and add the p-value to the plot%%00010#%%00009testresult &lt;- shapiro.test(plotVar)%%00010#%%00009ShapiroResults &lt;- data.frame(parameter = param, pvalue = testresult$p.value, W = testresult$statistic, n = length(plotVar))%%00010#%%00009})%%00010#   ShapiroResult &lt;- data.frame(do.call(&quot;rbind&quot;, ret))%%00010%%00010%%00010#3. calculate%%00010allResults &lt;- list()%%00010# iterate over all parameters and create plots for all of them%%00010for (i in 1:length(selReadouts)) {%%00010%%00009#remove NA (shapiro test allows NA but data has to have 3 - 5000 non-missing-values)%%00010%%00009data &lt;- kIn[which(!is.na(kIn[,selReadouts[i]])), selReadouts[i]]%%00010%%00010    # if there are more than 5000 data points, run test on a subset%%00010    if(length(data) &gt; 5000) {%%00010        data &lt;- sample(data, 5000)%%00010    }%%00010%%00010    # do the test and add the p-value to the plot%%00010%%00009result &lt;- shapiro.test(data)%%00010%%00009%%00010%%00009allResults[[i]] &lt;- data.frame(parameter = selReadouts[i], &quot;p-value&quot; = result$p.value, &quot;log10(p-value)&quot; = log10(result$p.value), &quot;p-value.text&quot; = format(result$p.value, scientific = TRUE, digits = 4), W = result$statistic, n = length(data))%%00010%%00009}%%00010%%00010rOut &lt;- data.frame(do.call(&quot;rbind&quot;, allResults))%%00010%%00010%%00010"/>
+<config key="node.template_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="node.template" type="xstring" value="&lt;de.mpicbg.knime.scripting.core.rgg.wizard.ScriptTemplate&gt;%%00010  &lt;scriptingLanguage&gt;&lt;/scriptingLanguage&gt;%%00010  &lt;author&gt;Holger Brandl, Martin Stoeter&lt;/author&gt;%%00010  &lt;categories&gt;%%00010    &lt;string&gt; distributions&lt;/string&gt;%%00010  &lt;/categories&gt;%%00010  &lt;description&gt;Shapiro-Wilk Normality Test calculates statistics to judge the distribution of data (with respect to normal distribution). %%00010The QQ-Plot visualizes the data in respect to a normal distribution. %%00010- to use a flow variable check box and type in variable name using the format: FLOWVAR(variable name)%%00010- use the R-plot template &amp;quot;QQ-Plot grid&amp;quot; to do the QQ-plots&lt;/description&gt;%%00010  &lt;template&gt;&amp;lt;rgg&amp;gt;%%00010%%00010&amp;lt;!--1. Title and short description --&amp;gt;%%00010%%00010&amp;lt;h3 text=&amp;quot;Shapiro-Wilk Normality Test (QQ-Plot)&amp;quot; aligment=&amp;quot;center&amp;quot; span=&amp;quot;full&amp;quot;/&amp;gt;%%00010&amp;lt;separator label=&amp;quot;Description&amp;quot; span=&amp;quot;full&amp;quot;/&amp;gt;%%00010&amp;lt;labelarea span=&amp;quot;full&amp;quot;&amp;gt;Shapiro-Wilk Normality Test calculates statistics to judge the distribution of data (with respect to normal distribution). %%00010The QQ-Plot visualizes the data in respect to a normal distribution. %%00010- to use a flow variable check box and type in variable name using the format: FLOWVAR(variable name)%%00010- use the R-plot template &amp;quot;QQ-Plot grid&amp;quot; to do the QQ-plots&amp;lt;/labelarea&amp;gt;%%00010&amp;lt;gaprow height=&amp;quot;1&amp;quot;/&amp;gt;%%00010%%00010&amp;lt;!-- 2. Configuration--&amp;gt;%%00010%%00010&amp;lt;separator label=&amp;quot;Options&amp;quot; span=&amp;quot;full&amp;quot;/&amp;gt;%%00010&amp;lt;gaprow height=&amp;quot;2&amp;quot;/&amp;gt;%%00010%%00010#1. Parameter selection%%00010&amp;lt;group&amp;gt;%%00010%%00010#Select the parameter of interest%%00010&amp;lt;label text=&amp;quot;Select your parameters for which you would like to do the Shapiro-Wilk Normality Test&amp;quot;/&amp;gt;%%00010%%00010selReadouts = c(&amp;lt;panellistbox label=&amp;quot;Parameters of interest&amp;quot; items=&amp;quot;$$$NUM_ATTRIBUTES$$$&amp;quot; span=&amp;quot;full&amp;quot;/&amp;gt;)%%00010&amp;lt;hbox&amp;gt;%%00010&amp;lt;checkbox  label=&amp;quot;use flow variable&amp;quot; var=&amp;quot;useFlowVarSelReadouts&amp;quot; selected=&amp;quot;false&amp;quot;/&amp;gt;%%00010&amp;lt;textfield label=&amp;quot;flow variable:&amp;quot; var=&amp;quot;flowVariableSelReadouts&amp;quot; data-type=&amp;quot;text&amp;quot; default-value= &amp;quot;&amp;quot; size=&amp;quot;10&amp;quot; span=&amp;quot;full&amp;quot;/&amp;gt;%%00010&amp;lt;/hbox&amp;gt;%%00010%%00010&amp;lt;/group&amp;gt;%%00010%%00010&amp;lt;![CDATA[%%00010%%00010#2. r-code%%00010%%00010#2.0 load libaries%%00010%%00010#2.1 manage RGG to R: define as numbers%%00010%%00010#2.2 manage RGG to R: set scales to default and check scales%%00010if (useFlowVarSelReadouts) selReadouts &amp;lt;- flowVariableSelReadouts%%00010%%00010#3. calculate%%00010#allResults &amp;lt;- list()%%00010# iterate over all parameters and create plots for all of them%%00010#ret &amp;lt;- apply(selReadouts, FUN = function (param) {%%00010#%%00009plotVar = eval(parse(text = paste(&amp;quot;kIn$\&amp;quot;&amp;quot;, param, &amp;quot;\&amp;quot;&amp;quot;, sep = &amp;apos;&amp;apos;)))%%00010%%00009#remove NA (shaper test allows only maximum of 5000 NA)%%00010#%%00009plotVar &amp;lt;- plotVar[which(!is.na(plotVar))]%%00010%%00010%%00009# do the test and add the p-value to the plot%%00010#%%00009testresult &amp;lt;- shapiro.test(plotVar)%%00010#%%00009ShapiroResults &amp;lt;- data.frame(parameter = param, pvalue = testresult$p.value, W = testresult$statistic, n = length(plotVar))%%00010#%%00009})%%00010#   ShapiroResult &amp;lt;- data.frame(do.call(&amp;quot;rbind&amp;quot;, ret))%%00010%%00010%%00010#3. calculate%%00010allResults &amp;lt;- list()%%00010# iterate over all parameters and create plots for all of them%%00010for (i in 1:length(selReadouts)) {%%00010%%00009#remove NA (shapiro test allows NA but data has to have 3 - 5000 non-missing-values)%%00010%%00009data &amp;lt;- kIn[which(!is.na(kIn[,selReadouts[i]])), selReadouts[i]]%%00010%%00010    # if there are more than 5000 data points, run test on a subset%%00010    if(length(data) &amp;gt; 5000) {%%00010        data &amp;lt;- sample(data, 5000)%%00010    }%%00010%%00010    # do the test and add the p-value to the plot%%00010%%00009result &amp;lt;- shapiro.test(data)%%00010%%00009%%00010%%00009allResults[[i]] &amp;lt;- data.frame(parameter = selReadouts[i], &amp;quot;p-value&amp;quot; = result$p.value, &amp;quot;log10(p-value)&amp;quot; = log10(result$p.value), &amp;quot;p-value.text&amp;quot; = format(result$p.value, scientific = TRUE, digits = 4), W = result$statistic, n = length(data))%%00010%%00009}%%00010%%00010rOut &amp;lt;- data.frame(do.call(&amp;quot;rbind&amp;quot;, allResults))%%00010%%00010]]&amp;gt;%%00010&amp;lt;/rgg&amp;gt;&lt;/template&gt;%%00010  &lt;persistedConfig&gt;%%00010    &lt;entry&gt;%%00010      &lt;string&gt;flow variable:&lt;/string&gt;%%00010      &lt;string&gt;&lt;/string&gt;%%00010    &lt;/entry&gt;%%00010    &lt;entry&gt;%%00010      &lt;string&gt;Parameters of interest&lt;/string&gt;%%00010      &lt;list&gt;%%00010        &lt;string&gt;Col0&lt;/string&gt;%%00010      &lt;/list&gt;%%00010    &lt;/entry&gt;%%00010    &lt;entry&gt;%%00010      &lt;string&gt;use flow variable&lt;/string&gt;%%00010      &lt;boolean&gt;false&lt;/boolean&gt;%%00010    &lt;/entry&gt;%%00010  &lt;/persistedConfig&gt;%%00010  &lt;name&gt;Shapiro-Wilk Normality Test (QQ-Plot)&lt;/name&gt;%%00010  &lt;linkedToScript&gt;true&lt;/linkedToScript&gt;%%00010  &lt;previewURL&gt;https://raw.githubusercontent.com/knime-mpicbg/scripting-templates/master/knime-scripting-templates/R/qq-plot.png&lt;/previewURL&gt;%%00010  &lt;templateURL&gt;https://raw.githubusercontent.com/knime-mpicbg/scripting-templates/master/knime-scripting-templates/R/snippet-templates.txt&lt;/templateURL&gt;%%00010&lt;/de.mpicbg.knime.scripting.core.rgg.wizard.ScriptTemplate&gt;"/>
+<config key="open.in_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="open.in" type="xboolean" value="false"/>
+<config key="chunk.in_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="chunk.in" type="xint" value="-1"/>
+<config key="chunk.out_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="chunk.out" type="xint" value="-1"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="de.mpicbg.knime.scripting.r.RSnippetNodeFactory"/>
+<entry key="node-name" type="xstring" value="R Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="RSnippet-Node extension for KNIME Workbench"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="de.mpicbg.knime.scripting.r"/>
+<entry key="node-bundle-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)"/>
+<entry key="node-bundle-version" type="xstring" value="3.1.103.v201607041324"/>
+<entry key="node-feature-name" type="xstring" value="KNIME R Scripting extension"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="de.mpicbg.tds.knime.scripting.r.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)"/>
+<entry key="node-feature-version" type="xstring" value="3.1.103.v201607041324"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="R Snippet"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ea804702-35ad-4bef-9f55-bb9ac654d6ac"/>
+</config>
+</config>

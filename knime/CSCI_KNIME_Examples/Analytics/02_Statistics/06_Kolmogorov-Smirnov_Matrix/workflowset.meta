@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">knime</met:element>
+  <met:element form="date" name="Creation Date">5/11/2018/17:11:33 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Kolmogorov-Smirnov Matrix
+
+Executes the Kolmogorov-Smirnov test on all pairs of columns in the HSB2 dataset. It creates a matrix view from the computed p-values with alpha = 0.05.
+
+TAG: statistics, kolmogorov-smirnov, heatmap</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2018-12-06 08:24:01 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2018-12-05 17:15:53 +0100</met:element>
+</met:KNIMEMetaInfo>

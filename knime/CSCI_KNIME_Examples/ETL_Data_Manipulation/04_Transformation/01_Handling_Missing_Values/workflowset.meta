@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Berthold</element><element xmlns="" form="date" name="Creation Date">8/11/2015/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Missing Value Handling
+
+This workflow demonstrates how to deal with missing values in data tables. They can either be replaced (e.g. by the mean, a specified value etc.) or the columns exceeding a certain amount of missing values are removed.
+
+
+TAGS: missing value,ETL</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-10 10:30:50 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-09 14:00:23 +0100</element></KNIMEMetaInfo>

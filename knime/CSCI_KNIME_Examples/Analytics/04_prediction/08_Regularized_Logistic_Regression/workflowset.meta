@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">KNIME</element><element xmlns="" form="date" name="Creation Date">8/3/2019/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Impact of Regularization in case of Logistic Regression
+
+The goal of this workflow is to analyze the impact of different priors in case of the logistic regression. The workflow therefore first reads the internet advertisement dataset. Then it creates a subset with more columns than rows, favouring overfitting. In the next step three models with different prior options are trained. In the last step the results are summarized in an interactive javascript view.
+
+BLOG: Regularization for Logistic Regression: L1, L2, Gauss or Laplace? https://www.knime.com/blog/regularization-for-logistic-regression-l1-l2-gauss-or-laplace
+TAGS: regularization,gauss,laplace,L1,L2,logistic regression,data science,machine learning</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-07 15:31:40 -0600</element></KNIMEMetaInfo>

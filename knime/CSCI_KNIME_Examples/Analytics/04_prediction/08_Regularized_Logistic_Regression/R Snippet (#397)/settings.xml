@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="node.script_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="node.script" type="xstring" value=""/>
+<config key="open.in_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="open.in" type="xboolean" value="false"/>
+<config key="node.template_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="node.template" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="de.mpicbg.knime.scripting.r.node.generic.snippet.GenericRSnippetNodeFactory2"/>
+<entry key="node-name" type="xstring" value="R Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="RSnippet-Node extension for KNIME Workbench"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="de.mpicbg.knime.scripting.r"/>
+<entry key="node-bundle-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)"/>
+<entry key="node-bundle-version" type="xstring" value="3.1.103.v201607041324"/>
+<entry key="node-feature-name" type="xstring" value="KNIME R Scripting extension"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="de.mpicbg.tds.knime.scripting.r.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)"/>
+<entry key="node-feature-version" type="xstring" value="3.1.103.v201607041324"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="R Snippet"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

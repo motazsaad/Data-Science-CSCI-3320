@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>02_Example_for_Predicting_Time_Series</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.knime.workbench.ui.KNIMEProjectNature</nature>
+	</natures>
+</projectDescription>

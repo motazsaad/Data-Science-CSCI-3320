@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">laaaarsi</element><element xmlns="" form="date" name="Creation Date">2/11/2019/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Analyzing Churn Models with the Binary Classification Inspector
+
+This workflow demonstrates the functionality of the Binary Classification Inspector node. It produces a complex view made of four different charts in order to compare, optimize and select predictions of different binary classifiers.&#xd;
+&#xd;
+It is possible to compare a number of binary classifier machine learning models predicting the same target on the same test data using performance metrics and ROC curves. Here four machine learning models are used: Naive Bayes, Random Forest, Gradient Boosted Trees, Logistic Regression and Decision Tree.&#xd;
+&#xd;
+By moving a threshold slider in the interactive view you can optimize a model by finding the best threshold given a performance metric of your choice.&#xd;
+&#xd;
+It is possible to interactively select a given type of predictions (e.g. true positives) of one of the models and export them at the output of the node&#xd;
+&#xd;
+&#xd;
+&#xd;
+
+
+TAGS: Machine Learning,Classification,Data Mining,Decision Tree,Binary Classification Inspector,Threshold,Scoring,Logistic Regression,Gradient Boosted Trees,Random Forest</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-07 15:42:50 -0600</element></KNIMEMetaInfo>

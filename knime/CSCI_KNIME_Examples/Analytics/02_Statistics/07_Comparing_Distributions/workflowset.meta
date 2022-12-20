@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">stelfrich</element><element xmlns="" form="date" name="Creation Date">2/11/2019/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Comparing Distributions
+
+This workflow checks if all the samples for groups in the input data themselves are normally distributed and, subsequently, checks if the samples originate from the same population.
+
+
+
+
+TAGS: statistics,anova,shapiro-wilk,kruskal-wallis,hyothesis tests</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2019-12-08 13:28:44 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2019-12-06 17:01:42 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

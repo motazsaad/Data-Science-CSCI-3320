@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">rosy</met:element>
+<met:element form="date" read-only="false" name="Creation Date">31/0/2017/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Data Chef ETL Battles. Customer Transactions: Money vs. Loyalty.
+
+In this workflow we convert raw customer transactions, i.e. contract registrations, into money measures on the one hand and loyalty features on the other. The idea is to move from a list of transactions to one or a few numbers describing an aspect of the customer activity. Here we have chosen money and loyalty.  Money as total amount of money paid by customer or as amount paid per year. Loyalty as # of days under contract or as loyalty ratio (= # effective days / total number of days till now).&#13;
+
+
+URL: Data Chef ETL Battles. What can be prepared with today’s data? https://www.knime.org/blog/CustomerTransactions_Money_Loyalty
+TAGS: ETL,KNIME,data manipulation,loyalty,customer intelligence,raw transactions,contract,money</met:element>
+</met:KNIMEMetaInfo>

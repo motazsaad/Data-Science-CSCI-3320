@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="Template">
+<entry key="created_by" type="xstring" value="4.1.0.v201912201424"/>
+<entry key="created_by_nightly" type="xboolean" value="false"/>
+<entry key="version" type="xstring" value="4.1.0"/>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Template"/>
+<entry key="timestamp" type="xstring" value="2020-01-10 15:30:25"/>
+<entry key="sourceURI" type="xstring" isnull="true" value=""/>
+<entry key="templateType" type="xstring" value="SubNode"/>
+<config key="exampleInputDataInfo">
+<entry key="location" type="xstring" value="exampleInputData"/>
+<config key="content">
+<config key="object_0.zip">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="null"/>
+</config>
+<config key="object_1.zip">
+<entry key="index" type="xint" value="1"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_file" type="xstring" value="object_1.zip"/>
+</config>
+<config key="object_2.zip">
+<entry key="index" type="xint" value="2"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_file" type="xstring" value="object_2.zip"/>
+</config>
+<config key="object_3.zip">
+<entry key="index" type="xint" value="3"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_file" type="xstring" value="object_3.zip"/>
+</config>
+</config>
+</config>
+<config key="incomingFlowVariables">
+<config key="Var_0">
+<entry key="name" type="xstring" value="groupColumn"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Base DRG code"/>
+</config>
+<config key="Var_1">
+<entry key="name" type="xstring" value="outlierColumn"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="DRG quintile average payment amount"/>
+</config>
+<config key="Var_2">
+<entry key="name" type="xstring" value="outlierFactor"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="1.5"/>
+</config>
+<config key="Var_3">
+<entry key="name" type="xstring" value="topX"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="10"/>
+</config>
+</config>
+</config>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">knime</met:element>
+  <met:element form="date" name="Creation Date">5/11/2018/17:13:35 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Independent Groups t-test
+
+Tests if there is a statistically significant difference between test scores of high school students at private schools and public schools.
+
+TAG: statistics, t-test, student's t-test</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2018-12-06 08:23:56 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2018-12-05 17:17:15 +0100</met:element>
+</met:KNIMEMetaInfo>

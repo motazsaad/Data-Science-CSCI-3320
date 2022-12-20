@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">KNIME</met:element>
+<met:element form="date" read-only="false" name="Creation Date">17/9/2019/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Duplicate Row Filter
+
+This workflow is based on the adult.csv data set. Try it out to:&#13;
+1. Remove duplicates&#13;
+- keep the first or  last appearance of the duplicates&#13;
+- keep the row of duplicates that has a maximum or minimum value regarding a specific feature&#13;
+2. Flag duplicates&#13;
+- add a column that flags rows as unique, duplicate or chosen&#13;
+- add a column that displays the RowID of the (representative) chosen row for each duplicate&#13;
+- add both columns for the two flag types that were mentioned before&#13;
+
+
+TAGS: duplicates,data manipulation,duplicate row filter,ETL,row filtering</met:element>
+</met:KNIMEMetaInfo>

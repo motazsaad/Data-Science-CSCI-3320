@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">rosy</met:element>
+<met:element form="date" read-only="false" name="Creation Date">19/8/2016/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Column Filter
+
+The node offers 3 different filtering modes: manually, by name, and by type.&#13;
+- manually you decide which columns to keep and which to leave out, through Add and Remove buttons.&#13;
+- by name you decide which columns to keep based on their name through wildcards and Reg Ex.&#13;
+- by type you decide the columns to keep based on their type, like all Strings or all Integers.&#13;
+
+
+VIDEO: Column Filtering https://youtu.be/b9k39b-6oxo?list=PLz3mQ6OlTI0Z6ee2np7AApMFHEmvwyuz6
+TAGS: column filter,column filtering</met:element>
+</met:KNIMEMetaInfo>

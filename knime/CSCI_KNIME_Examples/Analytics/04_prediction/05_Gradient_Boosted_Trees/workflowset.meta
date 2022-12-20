@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">Adrian Nembach</element><element xmlns="" form="date" name="Creation Date">28/5/2016/15:7:10 +02:00</element><element xmlns="" form="multiline" name="Comments">Learn a Gradient Boosted Trees model
+
+This workflow shows how to learn a Gradient Boosted Trees model on the adult data set.
+
+TAG: classification, machine learning, gradient boosting, boosting, gradient boosted trees, data mining</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2016-09-06 10:59:47 +0200</element></KNIMEMetaInfo>

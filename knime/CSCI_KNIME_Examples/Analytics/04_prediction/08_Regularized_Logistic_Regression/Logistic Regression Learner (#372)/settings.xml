@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="target" type="xstring" value="ad, nonad | classes."/>
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="681"/>
+<entry key="0" type="xstring" value="height: continuous."/>
+<entry key="1" type="xstring" value="width: continuous."/>
+<entry key="2" type="xstring" value="aratio: continuous."/>
+<entry key="3" type="xstring" value="local: 0,1."/>
+<entry key="4" type="xstring" value="url*www.slake.com: 0,1."/>
+<entry key="5" type="xstring" value="url*media: 0,1."/>
+<entry key="6" type="xstring" value="url*blipverts: 0,1."/>
+<entry key="7" type="xstring" value="url*tkaine+kats: 0,1."/>
+<entry key="8" type="xstring" value="url*advertising+blipverts: 0,1."/>
+<entry key="9" type="xstring" value="url*express-scripts.com: 0,1."/>
+<entry key="10" type="xstring" value="url*cnet: 0,1."/>
+<entry key="11" type="xstring" value="url*time+1998: 0,1."/>
+<entry key="12" type="xstring" value="url*afn.org: 0,1."/>
+<entry key="13" type="xstring" value="url*pool+images: 0,1."/>
+<entry key="14" type="xstring" value="url*kandinsky: 0,1."/>
+<entry key="15" type="xstring" value="url*csuhayward.edu: 0,1."/>
+<entry key="16" type="xstring" value="url*www.yahoo.co.uk: 0,1."/>
+<entry key="17" type="xstring" value="url*antiwar.com: 0,1."/>
+<entry key="18" type="xstring" value="url*geoguideii+tour: 0,1."/>
+<entry key="19" type="xstring" value="url*heartland+pointe: 0,1."/>
+<entry key="20" type="xstring" value="url*ads.switchboard.com: 0,1."/>
+<entry key="21" type="xstring" value="url*images+geoguideii: 0,1."/>
+<entry key="22" type="xstring" value="url*preferences.com: 0,1."/>
+<entry key="23" type="xstring" value="url*icsi.com: 0,1."/>
+<entry key="24" type="xstring" value="url*pacific.net.sg: 0,1."/>
+<entry key="25" type="xstring" value="url*wired.com: 0,1."/>
+<entry key="26" type="xstring" value="url*go2net: 0,1."/>
+<entry key="27" type="xstring" value="url*www.pacific.net.sg: 0,1."/>
+<entry key="28" type="xstring" value="url*library: 0,1."/>
+<entry key="29" type="xstring" value="url*www.worlddrugstore.com: 0,1."/>
+<entry key="30" type="xstring" value="url*kats: 0,1."/>
+<entry key="31" type="xstring" value="url*tkaine+rings: 0,1."/>
+<entry key="32" type="xstring" value="url*any+time: 0,1."/>
+<entry key="33" type="xstring" value="url*home.netscape.com: 0,1."/>
+<entry key="34" type="xstring" value="url*doubleclick.net: 0,1."/>
+<entry key="35" type="xstring" value="url*lycos.de: 0,1."/>
+<entry key="36" type="xstring" value="url*logos: 0,1."/>
+<entry key="37" type="xstring" value="url*ng+spacedesc: 0,1."/>
+<entry key="38" type="xstring" value="url*pointe+1154: 0,1."/>
+<entry key="39" type="xstring" value="url*banners: 0,1."/>
+<entry key="40" type="xstring" value="url*generated+images: 0,1."/>
+<entry key="41" type="xstring" value="url*image+ng: 0,1."/>
+<entry key="42" type="xstring" value="url*home: 0,1."/>
+<entry key="43" type="xstring" value="url*send+b: 0,1."/>
+<entry key="44" type="xstring" value="url*worlddrugstore.com: 0,1."/>
+<entry key="45" type="xstring" value="url*www.afn.org: 0,1."/>
+<entry key="46" type="xstring" value="url*time: 0,1."/>
+<entry key="47" type="xstring" value="url*banner: 0,1."/>
+<entry key="48" type="xstring" value="url*img: 0,1."/>
+<entry key="49" type="xstring" value="url*images+img: 0,1."/>
+<entry key="50" type="xstring" value="url*ics: 0,1."/>
+<entry key="51" type="xstring" value="url*times: 0,1."/>
+<entry key="52" type="xstring" value="url*images.go2net.com: 0,1."/>
+<entry key="53" type="xstring" value="url*malek: 0,1."/>
+<entry key="54" type="xstring" value="url*advertising+graphics: 0,1."/>
+<entry key="55" type="xstring" value="url*ads+media: 0,1."/>
+<entry key="56" type="xstring" value="url*set+butt: 0,1."/>
+<entry key="57" type="xstring" value="url*www.globec.com.au: 0,1."/>
+<entry key="58" type="xstring" value="url*athens: 0,1."/>
+<entry key="59" type="xstring" value="url*www.ireland-today.ie: 0,1."/>
+<entry key="60" type="xstring" value="url*www.antiwar.com: 0,1."/>
+<entry key="61" type="xstring" value="url*sponsor: 0,1."/>
+<entry key="62" type="xstring" value="url*www.news.com: 0,1."/>
+<entry key="63" type="xstring" value="url*memberbanners: 0,1."/>
+<entry key="64" type="xstring" value="url*icons: 0,1."/>
+<entry key="65" type="xstring" value="url*images: 0,1."/>
+<entry key="66" type="xstring" value="url*irish+times: 0,1."/>
+<entry key="67" type="xstring" value="url*media+images: 0,1."/>
+<entry key="68" type="xstring" value="url*geocities.com: 0,1."/>
+<entry key="69" type="xstring" value="url*www.uk.lycos.de: 0,1."/>
+<entry key="70" type="xstring" value="url*hem1.passagen.se: 0,1."/>
+<entry key="71" type="xstring" value="url*www.express-scripts.com: 0,1."/>
+<entry key="72" type="xstring" value="url*personal: 0,1."/>
+<entry key="73" type="xstring" value="url*send: 0,1."/>
+<entry key="74" type="xstring" value="url*marketplace: 0,1."/>
+<entry key="75" type="xstring" value="url*tkaine+bars: 0,1."/>
+<entry key="76" type="xstring" value="url*generated: 0,1."/>
+<entry key="77" type="xstring" value="url*runofsite: 0,1."/>
+<entry key="78" type="xstring" value="url*logo: 0,1."/>
+<entry key="79" type="xstring" value="url*auto: 0,1."/>
+<entry key="80" type="xstring" value="url*afn47757: 0,1."/>
+<entry key="81" type="xstring" value="url*gifs: 0,1."/>
+<entry key="82" type="xstring" value="url*esi: 0,1."/>
+<entry key="83" type="xstring" value="url*hollywood: 0,1."/>
+<entry key="84" type="xstring" value="url*valley: 0,1."/>
+<entry key="85" type="xstring" value="url*bossintl.com: 0,1."/>
+<entry key="86" type="xstring" value="url*news.com: 0,1."/>
+<entry key="87" type="xstring" value="url*users: 0,1."/>
+<entry key="88" type="xstring" value="url*netscape.com: 0,1."/>
+<entry key="89" type="xstring" value="url*athens+8774: 0,1."/>
+<entry key="90" type="xstring" value="url*butt: 0,1."/>
+<entry key="91" type="xstring" value="url*geoguideii+send: 0,1."/>
+<entry key="92" type="xstring" value="url*w+gif: 0,1."/>
+<entry key="93" type="xstring" value="url*aol.com: 0,1."/>
+<entry key="94" type="xstring" value="url*irish-times.com: 0,1."/>
+<entry key="95" type="xstring" value="url*irish: 0,1."/>
+<entry key="96" type="xstring" value="url*ad.doubleclick.net: 0,1."/>
+<entry key="97" type="xstring" value="url*ad.preferences.com: 0,1."/>
+<entry key="98" type="xstring" value="url*bars: 0,1."/>
+<entry key="99" type="xstring" value="url*www.geocities.com: 0,1."/>
+<entry key="100" type="xstring" value="url*com: 0,1."/>
+<entry key="101" type="xstring" value="url*go2net+ads: 0,1."/>
+<entry key="102" type="xstring" value="url*switchboard.com: 0,1."/>
+<entry key="103" type="xstring" value="url*assets+images: 0,1."/>
+<entry key="104" type="xstring" value="url*buttons: 0,1."/>
+<entry key="105" type="xstring" value="url*thejeep.com: 0,1."/>
+<entry key="106" type="xstring" value="url*auto+generated: 0,1."/>
+<entry key="107" type="xstring" value="url*search: 0,1."/>
+<entry key="108" type="xstring" value="url*assets+auto: 0,1."/>
+<entry key="109" type="xstring" value="url*static.wired.com: 0,1."/>
+<entry key="110" type="xstring" value="url*memberbanners+live: 0,1."/>
+<entry key="111" type="xstring" value="url*adv+images: 0,1."/>
+<entry key="112" type="xstring" value="url*runofsite+any: 0,1."/>
+<entry key="113" type="xstring" value="url*www.mcs.csuhayward.edu: 0,1."/>
+<entry key="114" type="xstring" value="url*bin: 0,1."/>
+<entry key="115" type="xstring" value="url*1154+graypaw: 0,1."/>
+<entry key="116" type="xstring" value="url*img+ads: 0,1."/>
+<entry key="117" type="xstring" value="url*esi+image: 0,1."/>
+<entry key="118" type="xstring" value="url*www.toyotaofroswell.com: 0,1."/>
+<entry key="119" type="xstring" value="url*go2net.com: 0,1."/>
+<entry key="120" type="xstring" value="url*advertising: 0,1."/>
+<entry key="121" type="xstring" value="url*slake.com: 0,1."/>
+<entry key="122" type="xstring" value="url*tkaine: 0,1."/>
+<entry key="123" type="xstring" value="url*lovisa1: 0,1."/>
+<entry key="124" type="xstring" value="url*pool: 0,1."/>
+<entry key="125" type="xstring" value="url*any: 0,1."/>
+<entry key="126" type="xstring" value="url*image: 0,1."/>
+<entry key="127" type="xstring" value="url*heartland+valley: 0,1."/>
+<entry key="128" type="xstring" value="url*tii: 0,1."/>
+<entry key="129" type="xstring" value="url*adv: 0,1."/>
+<entry key="130" type="xstring" value="url*ads: 0,1."/>
+<entry key="131" type="xstring" value="url*images+ads: 0,1."/>
+<entry key="132" type="xstring" value="url*banner+gif: 0,1."/>
+<entry key="133" type="xstring" value="url*globec.com.au: 0,1."/>
+<entry key="134" type="xstring" value="url*pointe: 0,1."/>
+<entry key="135" type="xstring" value="url*valley+2539: 0,1."/>
+<entry key="136" type="xstring" value="url*members.aol.com: 0,1."/>
+<entry key="137" type="xstring" value="url*yahoo.co.uk: 0,1."/>
+<entry key="138" type="xstring" value="url*button: 0,1."/>
+<entry key="139" type="xstring" value="url*graypaw+gif: 0,1."/>
+<entry key="140" type="xstring" value="url*live: 0,1."/>
+<entry key="141" type="xstring" value="url*assets: 0,1."/>
+<entry key="142" type="xstring" value="url*set: 0,1."/>
+<entry key="143" type="xstring" value="url*wc: 0,1."/>
+<entry key="144" type="xstring" value="url*uk: 0,1."/>
+<entry key="145" type="xstring" value="url*images+set: 0,1."/>
+<entry key="146" type="xstring" value="url*www.bossintl.com: 0,1."/>
+<entry key="147" type="xstring" value="url*ng: 0,1."/>
+<entry key="148" type="xstring" value="url*spacedesc: 0,1."/>
+<entry key="149" type="xstring" value="url*it: 0,1."/>
+<entry key="150" type="xstring" value="url*rings: 0,1."/>
+<entry key="151" type="xstring" value="url*ad: 0,1."/>
+<entry key="152" type="xstring" value="url*uk+gif: 0,1."/>
+<entry key="153" type="xstring" value="url*passagen.se: 0,1."/>
+<entry key="154" type="xstring" value="url*marketing: 0,1."/>
+<entry key="155" type="xstring" value="url*toyotaofroswell.com: 0,1."/>
+<entry key="156" type="xstring" value="url*heartland: 0,1."/>
+<entry key="157" type="xstring" value="url*ireland-today.ie: 0,1."/>
+<entry key="158" type="xstring" value="url*times+graphics: 0,1."/>
+<entry key="159" type="xstring" value="url*b+gif: 0,1."/>
+<entry key="160" type="xstring" value="url*www.irish-times.com: 0,1."/>
+<entry key="161" type="xstring" value="url*ad+icons: 0,1."/>
+<entry key="162" type="xstring" value="url*graypaw: 0,1."/>
+<entry key="163" type="xstring" value="url*excite.com: 0,1."/>
+<entry key="164" type="xstring" value="url*graphics+ad: 0,1."/>
+<entry key="165" type="xstring" value="url*www.icsi.com: 0,1."/>
+<entry key="166" type="xstring" value="url*www.thejeep.com: 0,1."/>
+<entry key="167" type="xstring" value="url*tour: 0,1."/>
+<entry key="168" type="xstring" value="url*geoguideii: 0,1."/>
+<entry key="169" type="xstring" value="url*graphics: 0,1."/>
+<entry key="170" type="xstring" value="url*zueri.ch: 0,1."/>
+<entry key="171" type="xstring" value="origurl*hevern+psychref: 0,1."/>
+<entry key="172" type="xstring" value="origurl*and: 0,1."/>
+<entry key="173" type="xstring" value="origurl*www.yahoo.co.uk: 0,1."/>
+<entry key="174" type="xstring" value="origurl*tkaine+sydkat: 0,1."/>
+<entry key="175" type="xstring" value="origurl*members.xoom.com: 0,1."/>
+<entry key="176" type="xstring" value="origurl*0+rpp: 0,1."/>
+<entry key="177" type="xstring" value="origurl*www.thriveonline.com: 0,1."/>
+<entry key="178" type="xstring" value="origurl*icsi.com: 0,1."/>
+<entry key="179" type="xstring" value="origurl*e+html: 0,1."/>
+<entry key="180" type="xstring" value="origurl*paris: 0,1."/>
+<entry key="181" type="xstring" value="origurl*tii: 0,1."/>
+<entry key="182" type="xstring" value="origurl*lemoyne.edu: 0,1."/>
+<entry key="183" type="xstring" value="origurl*plains+5257: 0,1."/>
+<entry key="184" type="xstring" value="origurl*psychref: 0,1."/>
+<entry key="185" type="xstring" value="origurl*jun: 0,1."/>
+<entry key="186" type="xstring" value="origurl*www.lycos.co.uk: 0,1."/>
+<entry key="187" type="xstring" value="origurl*antiwar.com: 0,1."/>
+<entry key="188" type="xstring" value="origurl*index: 0,1."/>
+<entry key="189" type="xstring" value="origurl*1154+index: 0,1."/>
+<entry key="190" type="xstring" value="origurl*index+htm: 0,1."/>
+<entry key="191" type="xstring" value="origurl*irish-times.com: 0,1."/>
+<entry key="192" type="xstring" value="origurl*pointe: 0,1."/>
+<entry key="193" type="xstring" value="origurl*hem1.passagen.se: 0,1."/>
+<entry key="194" type="xstring" value="origurl*worlddrugstore.com: 0,1."/>
+<entry key="195" type="xstring" value="origurl*www.globec.com.au: 0,1."/>
+<entry key="196" type="xstring" value="origurl*athens+8774: 0,1."/>
+<entry key="197" type="xstring" value="origurl*times+paper: 0,1."/>
+<entry key="198" type="xstring" value="origurl*geocities.com: 0,1."/>
+<entry key="199" type="xstring" value="origurl*4301+misfits2: 0,1."/>
+<entry key="200" type="xstring" value="origurl*kattsida: 0,1."/>
+<entry key="201" type="xstring" value="origurl*valley+2647: 0,1."/>
+<entry key="202" type="xstring" value="origurl*tkaine: 0,1."/>
+<entry key="203" type="xstring" value="origurl*chopin+htm: 0,1."/>
+<entry key="204" type="xstring" value="origurl*misfits2: 0,1."/>
+<entry key="205" type="xstring" value="origurl*area51+vault: 0,1."/>
+<entry key="206" type="xstring" value="origurl*kitty: 0,1."/>
+<entry key="207" type="xstring" value="origurl*hollywood+7735: 0,1."/>
+<entry key="208" type="xstring" value="origurl*cgidir+dll: 0,1."/>
+<entry key="209" type="xstring" value="origurl*heartland: 0,1."/>
+<entry key="210" type="xstring" value="origurl*tkaine+linda: 0,1."/>
+<entry key="211" type="xstring" value="origurl*crawler: 0,1."/>
+<entry key="212" type="xstring" value="origurl*hollywood: 0,1."/>
+<entry key="213" type="xstring" value="origurl*sox: 0,1."/>
+<entry key="214" type="xstring" value="origurl*timeout+5: 0,1."/>
+<entry key="215" type="xstring" value="origurl*leonora: 0,1."/>
+<entry key="216" type="xstring" value="origurl*fh-rpl.de: 0,1."/>
+<entry key="217" type="xstring" value="origurl*www.antiwar.com: 0,1."/>
+<entry key="218" type="xstring" value="origurl*www.icsi.com: 0,1."/>
+<entry key="219" type="xstring" value="origurl*tii+tii: 0,1."/>
+<entry key="220" type="xstring" value="origurl*library: 0,1."/>
+<entry key="221" type="xstring" value="origurl*valley: 0,1."/>
+<entry key="222" type="xstring" value="origurl*ics+ikenobo: 0,1."/>
+<entry key="223" type="xstring" value="origurl*kandin: 0,1."/>
+<entry key="224" type="xstring" value="origurl*linda+htm: 0,1."/>
+<entry key="225" type="xstring" value="origurl*vault+3440: 0,1."/>
+<entry key="226" type="xstring" value="origurl*kandin+html: 0,1."/>
+<entry key="227" type="xstring" value="origurl*slake.com: 0,1."/>
+<entry key="228" type="xstring" value="origurl*kushmerick: 0,1."/>
+<entry key="229" type="xstring" value="origurl*www.toyotaofroswell.com: 0,1."/>
+<entry key="230" type="xstring" value="origurl*turbo: 0,1."/>
+<entry key="231" type="xstring" value="origurl*st: 0,1."/>
+<entry key="232" type="xstring" value="origurl*mogwhi: 0,1."/>
+<entry key="233" type="xstring" value="origurl*pointe+1154: 0,1."/>
+<entry key="234" type="xstring" value="origurl*search: 0,1."/>
+<entry key="235" type="xstring" value="origurl*kandinsky: 0,1."/>
+<entry key="236" type="xstring" value="origurl*meadows+3727: 0,1."/>
+<entry key="237" type="xstring" value="origurl*www.afn.org: 0,1."/>
+<entry key="238" type="xstring" value="origurl*pacific.net.sg: 0,1."/>
+<entry key="239" type="xstring" value="origurl*heartland+pointe: 0,1."/>
+<entry key="240" type="xstring" value="origurl*valley+2539: 0,1."/>
+<entry key="241" type="xstring" value="origurl*area51: 0,1."/>
+<entry key="242" type="xstring" value="origurl*pages: 0,1."/>
+<entry key="243" type="xstring" value="origurl*chopin: 0,1."/>
+<entry key="244" type="xstring" value="origurl*it: 0,1."/>
+<entry key="245" type="xstring" value="origurl*00+html: 0,1."/>
+<entry key="246" type="xstring" value="origurl*home.netscape.com: 0,1."/>
+<entry key="247" type="xstring" value="origurl*dll: 0,1."/>
+<entry key="248" type="xstring" value="origurl*ics: 0,1."/>
+<entry key="249" type="xstring" value="origurl*linda: 0,1."/>
+<entry key="250" type="xstring" value="origurl*leonora+html: 0,1."/>
+<entry key="251" type="xstring" value="origurl*heartland+plains: 0,1."/>
+<entry key="252" type="xstring" value="origurl*passagen.se: 0,1."/>
+<entry key="253" type="xstring" value="origurl*5257+timstory: 0,1."/>
+<entry key="254" type="xstring" value="origurl*yosemite+4301: 0,1."/>
+<entry key="255" type="xstring" value="origurl*rpp: 0,1."/>
+<entry key="256" type="xstring" value="origurl*personal: 0,1."/>
+<entry key="257" type="xstring" value="origurl*express-scripts.com: 0,1."/>
+<entry key="258" type="xstring" value="origurl*news: 0,1."/>
+<entry key="259" type="xstring" value="origurl*7735+mcp: 0,1."/>
+<entry key="260" type="xstring" value="origurl*sox+htm: 0,1."/>
+<entry key="261" type="xstring" value="origurl*midnite: 0,1."/>
+<entry key="262" type="xstring" value="origurl*maple.lemoyne.edu: 0,1."/>
+<entry key="263" type="xstring" value="origurl*times: 0,1."/>
+<entry key="264" type="xstring" value="origurl*news.com: 0,1."/>
+<entry key="265" type="xstring" value="origurl*www.slake.com: 0,1."/>
+<entry key="266" type="xstring" value="origurl*paper: 0,1."/>
+<entry key="267" type="xstring" value="origurl*paper+1998: 0,1."/>
+<entry key="268" type="xstring" value="origurl*www.tkz.fh-rpl.de: 0,1."/>
+<entry key="269" type="xstring" value="origurl*kattsida+html: 0,1."/>
+<entry key="270" type="xstring" value="origurl*20+timeout: 0,1."/>
+<entry key="271" type="xstring" value="origurl*lycos.co.uk: 0,1."/>
+<entry key="272" type="xstring" value="origurl*afn47757+midnite: 0,1."/>
+<entry key="273" type="xstring" value="origurl*metacrawler.com: 0,1."/>
+<entry key="274" type="xstring" value="origurl*xoom.com: 0,1."/>
+<entry key="275" type="xstring" value="origurl*paris+3963: 0,1."/>
+<entry key="276" type="xstring" value="origurl*general+kushmerick: 0,1."/>
+<entry key="277" type="xstring" value="origurl*kerouac+htm: 0,1."/>
+<entry key="278" type="xstring" value="origurl*mcp: 0,1."/>
+<entry key="279" type="xstring" value="origurl*toyotaofroswell.com: 0,1."/>
+<entry key="280" type="xstring" value="origurl*vault: 0,1."/>
+<entry key="281" type="xstring" value="origurl*afn.org: 0,1."/>
+<entry key="282" type="xstring" value="origurl*timeout: 0,1."/>
+<entry key="283" type="xstring" value="origurl*turbo+html: 0,1."/>
+<entry key="284" type="xstring" value="origurl*heartland+meadows: 0,1."/>
+<entry key="285" type="xstring" value="origurl*tkaine+mogwhi: 0,1."/>
+<entry key="286" type="xstring" value="origurl*www.bossintl.com: 0,1."/>
+<entry key="287" type="xstring" value="origurl*general: 0,1."/>
+<entry key="288" type="xstring" value="origurl*switchboard.com: 0,1."/>
+<entry key="289" type="xstring" value="origurl*cgidir: 0,1."/>
+<entry key="290" type="xstring" value="origurl*sydkat+htm: 0,1."/>
+<entry key="291" type="xstring" value="origurl*hotsprings: 0,1."/>
+<entry key="292" type="xstring" value="origurl*2647+chopin: 0,1."/>
+<entry key="293" type="xstring" value="origurl*www.worlddrugstore.com: 0,1."/>
+<entry key="294" type="xstring" value="origurl*bin+cgidir: 0,1."/>
+<entry key="295" type="xstring" value="origurl*lovisa1: 0,1."/>
+<entry key="296" type="xstring" value="origurl*athens: 0,1."/>
+<entry key="297" type="xstring" value="origurl*bossintl.com: 0,1."/>
+<entry key="298" type="xstring" value="origurl*cat: 0,1."/>
+<entry key="299" type="xstring" value="origurl*malek+kandin: 0,1."/>
+<entry key="300" type="xstring" value="origurl*yosemite: 0,1."/>
+<entry key="301" type="xstring" value="origurl*timstory: 0,1."/>
+<entry key="302" type="xstring" value="origurl*excite.com: 0,1."/>
+<entry key="303" type="xstring" value="origurl*irish+times: 0,1."/>
+<entry key="304" type="xstring" value="origurl*crawler+general: 0,1."/>
+<entry key="305" type="xstring" value="origurl*plains: 0,1."/>
+<entry key="306" type="xstring" value="origurl*netscape.com: 0,1."/>
+<entry key="307" type="xstring" value="origurl*csuhayward.edu: 0,1."/>
+<entry key="308" type="xstring" value="origurl*www.news.com: 0,1."/>
+<entry key="309" type="xstring" value="origurl*mogwhi+htm: 0,1."/>
+<entry key="310" type="xstring" value="origurl*thejeep.com: 0,1."/>
+<entry key="311" type="xstring" value="origurl*3963+leonora: 0,1."/>
+<entry key="312" type="xstring" value="origurl*sydkat: 0,1."/>
+<entry key="313" type="xstring" value="origurl*rpp+20: 0,1."/>
+<entry key="314" type="xstring" value="origurl*psychref+html: 0,1."/>
+<entry key="315" type="xstring" value="origurl*malek: 0,1."/>
+<entry key="316" type="xstring" value="origurl*timstory+html: 0,1."/>
+<entry key="317" type="xstring" value="origurl*story: 0,1."/>
+<entry key="318" type="xstring" value="origurl*thriveonline.com: 0,1."/>
+<entry key="319" type="xstring" value="origurl*kerouac: 0,1."/>
+<entry key="320" type="xstring" value="origurl*2647+kerouac: 0,1."/>
+<entry key="321" type="xstring" value="origurl*www.express-scripts.com: 0,1."/>
+<entry key="322" type="xstring" value="origurl*zdnet.com: 0,1."/>
+<entry key="323" type="xstring" value="origurl*www.irish-times.com: 0,1."/>
+<entry key="324" type="xstring" value="origurl*home+html: 0,1."/>
+<entry key="325" type="xstring" value="origurl*bin: 0,1."/>
+<entry key="326" type="xstring" value="origurl*3727+turbo: 0,1."/>
+<entry key="327" type="xstring" value="origurl*football: 0,1."/>
+<entry key="328" type="xstring" value="origurl*zueri.ch: 0,1."/>
+<entry key="329" type="xstring" value="origurl*yahoo.co.uk: 0,1."/>
+<entry key="330" type="xstring" value="origurl*www.thejeep.com: 0,1."/>
+<entry key="331" type="xstring" value="origurl*hevern: 0,1."/>
+<entry key="332" type="xstring" value="origurl*ikenobo: 0,1."/>
+<entry key="333" type="xstring" value="origurl*globec.com.au: 0,1."/>
+<entry key="334" type="xstring" value="origurl*meadows: 0,1."/>
+<entry key="335" type="xstring" value="origurl*afn47757: 0,1."/>
+<entry key="336" type="xstring" value="origurl*www.geocities.com: 0,1."/>
+<entry key="337" type="xstring" value="origurl*midnite+htm: 0,1."/>
+<entry key="338" type="xstring" value="origurl*tkaine+sox: 0,1."/>
+<entry key="339" type="xstring" value="origurl*lovisa1+kattsida: 0,1."/>
+<entry key="340" type="xstring" value="origurl*wired.com: 0,1."/>
+<entry key="341" type="xstring" value="origurl*irish: 0,1."/>
+<entry key="342" type="xstring" value="origurl*method: 0,1."/>
+<entry key="343" type="xstring" value="origurl*www.mcs.csuhayward.edu: 0,1."/>
+<entry key="344" type="xstring" value="origurl*www.pacific.net.sg: 0,1."/>
+<entry key="345" type="xstring" value="origurl*misfits2+htm: 0,1."/>
+<entry key="346" type="xstring" value="origurl*heartland+valley: 0,1."/>
+<entry key="347" type="xstring" value="origurl*kushmerick+method: 0,1."/>
+<entry key="348" type="xstring" value="origurl*method+0: 0,1."/>
+<entry key="349" type="xstring" value="origurl*index+html: 0,1."/>
+<entry key="350" type="xstring" value="origurl*asp: 0,1."/>
+<entry key="351" type="xstring" value="origurl*mcp+htm: 0,1."/>
+<entry key="352" type="xstring" value="origurl*home: 0,1."/>
+<entry key="353" type="xstring" value="origurl*netcenter: 0,1."/>
+<entry key="354" type="xstring" value="origurl*2539+index: 0,1."/>
+<entry key="355" type="xstring" value="origurl*teams: 0,1."/>
+<entry key="356" type="xstring" value="ancurl*mirror: 0,1."/>
+<entry key="357" type="xstring" value="ancurl*www.slake.com: 0,1."/>
+<entry key="358" type="xstring" value="ancurl*cnet+cat: 0,1."/>
+<entry key="359" type="xstring" value="ancurl*geoguide: 0,1."/>
+<entry key="360" type="xstring" value="ancurl*2fcrawler: 0,1."/>
+<entry key="361" type="xstring" value="ancurl*clickthru+clickid: 0,1."/>
+<entry key="362" type="xstring" value="ancurl*redirect: 0,1."/>
+<entry key="363" type="xstring" value="ancurl*com+ads: 0,1."/>
+<entry key="364" type="xstring" value="ancurl*express-scripts.com: 0,1."/>
+<entry key="365" type="xstring" value="ancurl*cnet: 0,1."/>
+<entry key="366" type="xstring" value="ancurl*cgiadman: 0,1."/>
+<entry key="367" type="xstring" value="ancurl*linkpg+htm: 0,1."/>
+<entry key="368" type="xstring" value="ancurl*www.microsoft.com: 0,1."/>
+<entry key="369" type="xstring" value="ancurl*nph: 0,1."/>
+<entry key="370" type="xstring" value="ancurl*comprod+mirror: 0,1."/>
+<entry key="371" type="xstring" value="ancurl*jump: 0,1."/>
+<entry key="372" type="xstring" value="ancurl*nsads.hotwired.com: 0,1."/>
+<entry key="373" type="xstring" value="ancurl*net: 0,1."/>
+<entry key="374" type="xstring" value="ancurl*relocate+ad: 0,1."/>
+<entry key="375" type="xstring" value="ancurl*sendform: 0,1."/>
+<entry key="376" type="xstring" value="ancurl*index+html: 0,1."/>
+<entry key="377" type="xstring" value="ancurl*kandinsky: 0,1."/>
+<entry key="378" type="xstring" value="ancurl*csuhayward.edu: 0,1."/>
+<entry key="379" type="xstring" value="ancurl*www.yahoo.co.uk: 0,1."/>
+<entry key="380" type="xstring" value="ancurl*heartland+pointe: 0,1."/>
+<entry key="381" type="xstring" value="ancurl*msn: 0,1."/>
+<entry key="382" type="xstring" value="ancurl*bin+click: 0,1."/>
+<entry key="383" type="xstring" value="ancurl*heartland+plains: 0,1."/>
+<entry key="384" type="xstring" value="ancurl*redir: 0,1."/>
+<entry key="385" type="xstring" value="ancurl*webring.org: 0,1."/>
+<entry key="386" type="xstring" value="ancurl*uk+sv: 0,1."/>
+<entry key="387" type="xstring" value="ancurl*mem: 0,1."/>
+<entry key="388" type="xstring" value="ancurl*next: 0,1."/>
+<entry key="389" type="xstring" value="ancurl*pacific.net.sg: 0,1."/>
+<entry key="390" type="xstring" value="ancurl*news: 0,1."/>
+<entry key="391" type="xstring" value="ancurl*adclick: 0,1."/>
+<entry key="392" type="xstring" value="ancurl*default: 0,1."/>
+<entry key="393" type="xstring" value="ancurl*exe+cid: 0,1."/>
+<entry key="394" type="xstring" value="ancurl*bin+webring: 0,1."/>
+<entry key="395" type="xstring" value="ancurl*exec+obidos: 0,1."/>
+<entry key="396" type="xstring" value="ancurl*obidos: 0,1."/>
+<entry key="397" type="xstring" value="ancurl*www.pacific.net.sg: 0,1."/>
+<entry key="398" type="xstring" value="ancurl*library: 0,1."/>
+<entry key="399" type="xstring" value="ancurl*n+a: 0,1."/>
+<entry key="400" type="xstring" value="ancurl*clickid: 0,1."/>
+<entry key="401" type="xstring" value="ancurl*1+cid: 0,1."/>
+<entry key="402" type="xstring" value="ancurl*ring: 0,1."/>
+<entry key="403" type="xstring" value="ancurl*nph+adclick: 0,1."/>
+<entry key="404" type="xstring" value="ancurl*adclick+exe: 0,1."/>
+<entry key="405" type="xstring" value="ancurl*event: 0,1."/>
+<entry key="406" type="xstring" value="ancurl*2fclick: 0,1."/>
+<entry key="407" type="xstring" value="ancurl*home.netscape.com: 0,1."/>
+<entry key="408" type="xstring" value="ancurl*bin+homestead: 0,1."/>
+<entry key="409" type="xstring" value="ancurl*click+runid: 0,1."/>
+<entry key="410" type="xstring" value="ancurl*doubleclick.net: 0,1."/>
+<entry key="411" type="xstring" value="ancurl*st+uk: 0,1."/>
+<entry key="412" type="xstring" value="ancurl*ng+spacedesc: 0,1."/>
+<entry key="413" type="xstring" value="ancurl*familyid: 0,1."/>
+<entry key="414" type="xstring" value="ancurl*yahoo: 0,1."/>
+<entry key="415" type="xstring" value="ancurl*site: 0,1."/>
+<entry key="416" type="xstring" value="ancurl*pointe+1154: 0,1."/>
+<entry key="417" type="xstring" value="ancurl*comprod: 0,1."/>
+<entry key="418" type="xstring" value="ancurl*ukie: 0,1."/>
+<entry key="419" type="xstring" value="ancurl*home: 0,1."/>
+<entry key="420" type="xstring" value="ancurl*www.lycos.co.uk: 0,1."/>
+<entry key="421" type="xstring" value="ancurl*ans+entry: 0,1."/>
+<entry key="422" type="xstring" value="ancurl*redirect+cgi: 0,1."/>
+<entry key="423" type="xstring" value="ancurl*time: 0,1."/>
+<entry key="424" type="xstring" value="ancurl*2f+2fwww: 0,1."/>
+<entry key="425" type="xstring" value="ancurl*ad+bin: 0,1."/>
+<entry key="426" type="xstring" value="ancurl*4+mem: 0,1."/>
+<entry key="427" type="xstring" value="ancurl*image+http: 0,1."/>
+<entry key="428" type="xstring" value="ancurl*d+ukie: 0,1."/>
+<entry key="429" type="xstring" value="ancurl*co+uk: 0,1."/>
+<entry key="430" type="xstring" value="ancurl*malek: 0,1."/>
+<entry key="431" type="xstring" value="ancurl*redirect+http: 0,1."/>
+<entry key="432" type="xstring" value="ancurl*1+d: 0,1."/>
+<entry key="433" type="xstring" value="ancurl*kat001: 0,1."/>
+<entry key="434" type="xstring" value="ancurl*magic+adclick: 0,1."/>
+<entry key="435" type="xstring" value="ancurl*http+2f: 0,1."/>
+<entry key="436" type="xstring" value="ancurl*www.globec.com.au: 0,1."/>
+<entry key="437" type="xstring" value="ancurl*athens: 0,1."/>
+<entry key="438" type="xstring" value="ancurl*schwab: 0,1."/>
+<entry key="439" type="xstring" value="ancurl*a+uk: 0,1."/>
+<entry key="440" type="xstring" value="ancurl*www.news.com: 0,1."/>
+<entry key="441" type="xstring" value="ancurl*2fclick+ng: 0,1."/>
+<entry key="442" type="xstring" value="ancurl*ads.msn.com: 0,1."/>
+<entry key="443" type="xstring" value="ancurl*home+ring: 0,1."/>
+<entry key="444" type="xstring" value="ancurl*plug.go2net.com: 0,1."/>
+<entry key="445" type="xstring" value="ancurl*geocities.com: 0,1."/>
+<entry key="446" type="xstring" value="ancurl*geoguide+tour: 0,1."/>
+<entry key="447" type="xstring" value="ancurl*www.webring.org: 0,1."/>
+<entry key="448" type="xstring" value="ancurl*groupid+1: 0,1."/>
+<entry key="449" type="xstring" value="ancurl*gif+pk: 0,1."/>
+<entry key="450" type="xstring" value="ancurl*adid: 0,1."/>
+<entry key="451" type="xstring" value="ancurl*worlddrug.com: 0,1."/>
+<entry key="452" type="xstring" value="ancurl*edition: 0,1."/>
+<entry key="453" type="xstring" value="ancurl*www.express-scripts.com: 0,1."/>
+<entry key="454" type="xstring" value="ancurl*personal: 0,1."/>
+<entry key="455" type="xstring" value="ancurl*gid: 0,1."/>
+<entry key="456" type="xstring" value="ancurl*bin+geoguide: 0,1."/>
+<entry key="457" type="xstring" value="ancurl*type: 0,1."/>
+<entry key="458" type="xstring" value="ancurl*ng+type: 0,1."/>
+<entry key="459" type="xstring" value="ancurl*bin+cgiadman: 0,1."/>
+<entry key="460" type="xstring" value="ancurl*tkaine+bars: 0,1."/>
+<entry key="461" type="xstring" value="ancurl*adcount+plx: 0,1."/>
+<entry key="462" type="xstring" value="ancurl*1+familyid: 0,1."/>
+<entry key="463" type="xstring" value="ancurl*page: 0,1."/>
+<entry key="464" type="xstring" value="ancurl*runofsite: 0,1."/>
+<entry key="465" type="xstring" value="ancurl*site+ne: 0,1."/>
+<entry key="466" type="xstring" value="ancurl*qual: 0,1."/>
+<entry key="467" type="xstring" value="ancurl*exe: 0,1."/>
+<entry key="468" type="xstring" value="ancurl*esi: 0,1."/>
+<entry key="469" type="xstring" value="ancurl*1154+linkpg: 0,1."/>
+<entry key="470" type="xstring" value="ancurl*desc: 0,1."/>
+<entry key="471" type="xstring" value="ancurl*bin+acc: 0,1."/>
+<entry key="472" type="xstring" value="ancurl*delv: 0,1."/>
+<entry key="473" type="xstring" value="ancurl*webring+ring: 0,1."/>
+<entry key="474" type="xstring" value="ancurl*bossintl.com: 0,1."/>
+<entry key="475" type="xstring" value="ancurl*runid: 0,1."/>
+<entry key="476" type="xstring" value="ancurl*news.com: 0,1."/>
+<entry key="477" type="xstring" value="ancurl*lycos.co.uk: 0,1."/>
+<entry key="478" type="xstring" value="ancurl*526+redirect: 0,1."/>
+<entry key="479" type="xstring" value="ancurl*ads+msn: 0,1."/>
+<entry key="480" type="xstring" value="ancurl*netscape.com: 0,1."/>
+<entry key="481" type="xstring" value="ancurl*athens+8774: 0,1."/>
+<entry key="482" type="xstring" value="ancurl*click+profileid: 0,1."/>
+<entry key="483" type="xstring" value="ancurl*qual+mc: 0,1."/>
+<entry key="484" type="xstring" value="ancurl*homestead+ans: 0,1."/>
+<entry key="485" type="xstring" value="ancurl*dll: 0,1."/>
+<entry key="486" type="xstring" value="ancurl*dir: 0,1."/>
+<entry key="487" type="xstring" value="ancurl*event+ng: 0,1."/>
+<entry key="488" type="xstring" value="ancurl*3a+2fcrawler: 0,1."/>
+<entry key="489" type="xstring" value="ancurl*cgiadman+dll: 0,1."/>
+<entry key="490" type="xstring" value="ancurl*aol.com: 0,1."/>
+<entry key="491" type="xstring" value="ancurl*magic: 0,1."/>
+<entry key="492" type="xstring" value="ancurl*bin+ad: 0,1."/>
+<entry key="493" type="xstring" value="ancurl*www.worlddrug.com: 0,1."/>
+<entry key="494" type="xstring" value="ancurl*irish-times.com: 0,1."/>
+<entry key="495" type="xstring" value="ancurl*download: 0,1."/>
+<entry key="496" type="xstring" value="ancurl*http+www: 0,1."/>
+<entry key="497" type="xstring" value="ancurl*homepage: 0,1."/>
+<entry key="498" type="xstring" value="ancurl*ad.doubleclick.net: 0,1."/>
+<entry key="499" type="xstring" value="ancurl*exec: 0,1."/>
+<entry key="500" type="xstring" value="ancurl*mem+1: 0,1."/>
+<entry key="501" type="xstring" value="ancurl*msn+com: 0,1."/>
+<entry key="502" type="xstring" value="ancurl*preferences: 0,1."/>
+<entry key="503" type="xstring" value="ancurl*contact: 0,1."/>
+<entry key="504" type="xstring" value="ancurl*bars: 0,1."/>
+<entry key="505" type="xstring" value="ancurl*www.geocities.com: 0,1."/>
+<entry key="506" type="xstring" value="ancurl*com: 0,1."/>
+<entry key="507" type="xstring" value="ancurl*webring+home: 0,1."/>
+<entry key="508" type="xstring" value="ancurl*cid: 0,1."/>
+<entry key="509" type="xstring" value="ancurl*cfm: 0,1."/>
+<entry key="510" type="xstring" value="ancurl*member: 0,1."/>
+<entry key="511" type="xstring" value="ancurl*index: 0,1."/>
+<entry key="512" type="xstring" value="ancurl*cat: 0,1."/>
+<entry key="513" type="xstring" value="ancurl*switchboard.com: 0,1."/>
+<entry key="514" type="xstring" value="ancurl*adcount: 0,1."/>
+<entry key="515" type="xstring" value="ancurl*search: 0,1."/>
+<entry key="516" type="xstring" value="ancurl*www+yahoo: 0,1."/>
+<entry key="517" type="xstring" value="ancurl*desc+4: 0,1."/>
+<entry key="518" type="xstring" value="ancurl*runofsite+any: 0,1."/>
+<entry key="519" type="xstring" value="ancurl*url: 0,1."/>
+<entry key="520" type="xstring" value="ancurl*gallery: 0,1."/>
+<entry key="521" type="xstring" value="ancurl*area: 0,1."/>
+<entry key="522" type="xstring" value="ancurl*www.mcs.csuhayward.edu: 0,1."/>
+<entry key="523" type="xstring" value="ancurl*bin: 0,1."/>
+<entry key="524" type="xstring" value="ancurl*www.toyotaofroswell.com: 0,1."/>
+<entry key="525" type="xstring" value="ancurl*go2net.com: 0,1."/>
+<entry key="526" type="xstring" value="ancurl*delv+dir: 0,1."/>
+<entry key="527" type="xstring" value="ancurl*slake.com: 0,1."/>
+<entry key="528" type="xstring" value="ancurl*edition+cnet: 0,1."/>
+<entry key="529" type="xstring" value="ancurl*tkaine: 0,1."/>
+<entry key="530" type="xstring" value="ancurl*asp: 0,1."/>
+<entry key="531" type="xstring" value="ancurl*relocate: 0,1."/>
+<entry key="532" type="xstring" value="ancurl*any: 0,1."/>
+<entry key="533" type="xstring" value="ancurl*ans: 0,1."/>
+<entry key="534" type="xstring" value="ancurl*image: 0,1."/>
+<entry key="535" type="xstring" value="ancurl*tii: 0,1."/>
+<entry key="536" type="xstring" value="ancurl*ads: 0,1."/>
+<entry key="537" type="xstring" value="ancurl*acc: 0,1."/>
+<entry key="538" type="xstring" value="ancurl*dir+qual: 0,1."/>
+<entry key="539" type="xstring" value="ancurl*globec.com.au: 0,1."/>
+<entry key="540" type="xstring" value="ancurl*ukie+s: 0,1."/>
+<entry key="541" type="xstring" value="ancurl*629+redirect: 0,1."/>
+<entry key="542" type="xstring" value="ancurl*pointe: 0,1."/>
+<entry key="543" type="xstring" value="ancurl*http+ads: 0,1."/>
+<entry key="544" type="xstring" value="ancurl*members.aol.com: 0,1."/>
+<entry key="545" type="xstring" value="ancurl*yahoo.co.uk: 0,1."/>
+<entry key="546" type="xstring" value="ancurl*ring+kat001: 0,1."/>
+<entry key="547" type="xstring" value="ancurl*msn.com: 0,1."/>
+<entry key="548" type="xstring" value="ancurl*groupid: 0,1."/>
+<entry key="549" type="xstring" value="ancurl*geoguide+geoguide: 0,1."/>
+<entry key="550" type="xstring" value="ancurl*link: 0,1."/>
+<entry key="551" type="xstring" value="ancurl*tour+member: 0,1."/>
+<entry key="552" type="xstring" value="ancurl*uk: 0,1."/>
+<entry key="553" type="xstring" value="ancurl*sv: 0,1."/>
+<entry key="554" type="xstring" value="ancurl*st: 0,1."/>
+<entry key="555" type="xstring" value="ancurl*pl: 0,1."/>
+<entry key="556" type="xstring" value="ancurl*pk: 0,1."/>
+<entry key="557" type="xstring" value="ancurl*www.bossintl.com: 0,1."/>
+<entry key="558" type="xstring" value="ancurl*ng: 0,1."/>
+<entry key="559" type="xstring" value="ancurl*ne: 0,1."/>
+<entry key="560" type="xstring" value="ancurl*mc: 0,1."/>
+<entry key="561" type="xstring" value="ancurl*spacedesc: 0,1."/>
+<entry key="562" type="xstring" value="ancurl*ie: 0,1."/>
+<entry key="563" type="xstring" value="ancurl*id: 0,1."/>
+<entry key="564" type="xstring" value="ancurl*gg: 0,1."/>
+<entry key="565" type="xstring" value="ancurl*homestead: 0,1."/>
+<entry key="566" type="xstring" value="ancurl*bin+nph: 0,1."/>
+<entry key="567" type="xstring" value="ancurl*t+s: 0,1."/>
+<entry key="568" type="xstring" value="ancurl*de: 0,1."/>
+<entry key="569" type="xstring" value="ancurl*co: 0,1."/>
+<entry key="570" type="xstring" value="ancurl*plx+http: 0,1."/>
+<entry key="571" type="xstring" value="ancurl*ad: 0,1."/>
+<entry key="572" type="xstring" value="ancurl*linkpg: 0,1."/>
+<entry key="573" type="xstring" value="ancurl*webring: 0,1."/>
+<entry key="574" type="xstring" value="ancurl*ref: 0,1."/>
+<entry key="575" type="xstring" value="ancurl*2fwww: 0,1."/>
+<entry key="576" type="xstring" value="ancurl*hotwired.com: 0,1."/>
+<entry key="577" type="xstring" value="ancurl*marketing: 0,1."/>
+<entry key="578" type="xstring" value="ancurl*toyotaofroswell.com: 0,1."/>
+<entry key="579" type="xstring" value="ancurl*heartland: 0,1."/>
+<entry key="580" type="xstring" value="ancurl*s+b: 0,1."/>
+<entry key="581" type="xstring" value="ancurl*clickthru: 0,1."/>
+<entry key="582" type="xstring" value="ancurl*plains: 0,1."/>
+<entry key="583" type="xstring" value="ancurl*entry: 0,1."/>
+<entry key="584" type="xstring" value="ancurl*acc+clickthru: 0,1."/>
+<entry key="585" type="xstring" value="ancurl*3a: 0,1."/>
+<entry key="586" type="xstring" value="ancurl*www.irish-times.com: 0,1."/>
+<entry key="587" type="xstring" value="ancurl*2f: 0,1."/>
+<entry key="588" type="xstring" value="ancurl*dll+type: 0,1."/>
+<entry key="589" type="xstring" value="ancurl*adclick+id: 0,1."/>
+<entry key="590" type="xstring" value="ancurl*click: 0,1."/>
+<entry key="591" type="xstring" value="ancurl*preferences+com: 0,1."/>
+<entry key="592" type="xstring" value="ancurl*url+http: 0,1."/>
+<entry key="593" type="xstring" value="ancurl*microsoft.com: 0,1."/>
+<entry key="594" type="xstring" value="ancurl*excite.com: 0,1."/>
+<entry key="595" type="xstring" value="ancurl*2fcgi: 0,1."/>
+<entry key="596" type="xstring" value="ancurl*bin+adcount: 0,1."/>
+<entry key="597" type="xstring" value="ancurl*mc+3a: 0,1."/>
+<entry key="598" type="xstring" value="ancurl*plx: 0,1."/>
+<entry key="599" type="xstring" value="ancurl*tour: 0,1."/>
+<entry key="600" type="xstring" value="ancurl*geoguide+sendform: 0,1."/>
+<entry key="601" type="xstring" value="ancurl*type+click: 0,1."/>
+<entry key="602" type="xstring" value="ancurl*tagvalues: 0,1."/>
+<entry key="603" type="xstring" value="ancurl*profileid: 0,1."/>
+<entry key="604" type="xstring" value="ancurl*zueri.ch: 0,1."/>
+<entry key="605" type="xstring" value="ancurl*tagvalues+13: 0,1."/>
+<entry key="606" type="xstring" value="alt*your: 0,1."/>
+<entry key="607" type="xstring" value="alt*and: 0,1."/>
+<entry key="608" type="xstring" value="alt*all: 0,1."/>
+<entry key="609" type="xstring" value="alt*here: 0,1."/>
+<entry key="610" type="xstring" value="alt*the: 0,1."/>
+<entry key="611" type="xstring" value="alt*download: 0,1."/>
+<entry key="612" type="xstring" value="alt*netscape: 0,1."/>
+<entry key="613" type="xstring" value="alt*explorer: 0,1."/>
+<entry key="614" type="xstring" value="alt*more: 0,1."/>
+<entry key="615" type="xstring" value="alt*for+a: 0,1."/>
+<entry key="616" type="xstring" value="alt*take+a: 0,1."/>
+<entry key="617" type="xstring" value="alt*kitty: 0,1."/>
+<entry key="618" type="xstring" value="alt*romance: 0,1."/>
+<entry key="619" type="xstring" value="alt*online: 0,1."/>
+<entry key="620" type="xstring" value="alt*now: 0,1."/>
+<entry key="621" type="xstring" value="alt*click+here: 0,1."/>
+<entry key="622" type="xstring" value="alt*information: 0,1."/>
+<entry key="623" type="xstring" value="alt*send+this: 0,1."/>
+<entry key="624" type="xstring" value="alt*up: 0,1."/>
+<entry key="625" type="xstring" value="alt*to: 0,1."/>
+<entry key="626" type="xstring" value="alt*net: 0,1."/>
+<entry key="627" type="xstring" value="alt*search: 0,1."/>
+<entry key="628" type="xstring" value="alt*this: 0,1."/>
+<entry key="629" type="xstring" value="alt*on: 0,1."/>
+<entry key="630" type="xstring" value="alt*of: 0,1."/>
+<entry key="631" type="xstring" value="alt*my: 0,1."/>
+<entry key="632" type="xstring" value="alt*pages: 0,1."/>
+<entry key="633" type="xstring" value="alt*this+page: 0,1."/>
+<entry key="634" type="xstring" value="alt*in: 0,1."/>
+<entry key="635" type="xstring" value="alt*on+the: 0,1."/>
+<entry key="636" type="xstring" value="alt*guestbook: 0,1."/>
+<entry key="637" type="xstring" value="alt*click: 0,1."/>
+<entry key="638" type="xstring" value="alt*at: 0,1."/>
+<entry key="639" type="xstring" value="alt*amazon+com: 0,1."/>
+<entry key="640" type="xstring" value="alt*web: 0,1."/>
+<entry key="641" type="xstring" value="alt*next: 0,1."/>
+<entry key="642" type="xstring" value="alt*news: 0,1."/>
+<entry key="643" type="xstring" value="alt*info: 0,1."/>
+<entry key="644" type="xstring" value="alt*book: 0,1."/>
+<entry key="645" type="xstring" value="alt*amazon: 0,1."/>
+<entry key="646" type="xstring" value="alt*back: 0,1."/>
+<entry key="647" type="xstring" value="alt*next+site: 0,1."/>
+<entry key="648" type="xstring" value="alt*a+tour: 0,1."/>
+<entry key="649" type="xstring" value="alt*com: 0,1."/>
+<entry key="650" type="xstring" value="alt*microsoft: 0,1."/>
+<entry key="651" type="xstring" value="alt*ring: 0,1."/>
+<entry key="652" type="xstring" value="alt*cat: 0,1."/>
+<entry key="653" type="xstring" value="alt*send: 0,1."/>
+<entry key="654" type="xstring" value="alt*my+guestbook: 0,1."/>
+<entry key="655" type="xstring" value="alt*here+for: 0,1."/>
+<entry key="656" type="xstring" value="alt*with: 0,1."/>
+<entry key="657" type="xstring" value="alt*get: 0,1."/>
+<entry key="658" type="xstring" value="alt*take: 0,1."/>
+<entry key="659" type="xstring" value="alt*tour: 0,1."/>
+<entry key="660" type="xstring" value="alt*site: 0,1."/>
+<entry key="661" type="xstring" value="alt*from: 0,1."/>
+<entry key="662" type="xstring" value="alt*page: 0,1."/>
+<entry key="663" type="xstring" value="alt*free: 0,1."/>
+<entry key="664" type="xstring" value="alt*services: 0,1."/>
+<entry key="665" type="xstring" value="alt*about: 0,1."/>
+<entry key="666" type="xstring" value="alt*for: 0,1."/>
+<entry key="667" type="xstring" value="alt*here+to: 0,1."/>
+<entry key="668" type="xstring" value="alt*you: 0,1."/>
+<entry key="669" type="xstring" value="alt*home: 0,1."/>
+<entry key="670" type="xstring" value="alt*kat: 0,1."/>
+<entry key="671" type="xstring" value="caption*click+here: 0,1."/>
+<entry key="672" type="xstring" value="caption*the: 0,1."/>
+<entry key="673" type="xstring" value="caption*here+for: 0,1."/>
+<entry key="674" type="xstring" value="caption*page: 0,1."/>
+<entry key="675" type="xstring" value="caption*my: 0,1."/>
+<entry key="676" type="xstring" value="caption*in: 0,1."/>
+<entry key="677" type="xstring" value="caption*here: 0,1."/>
+<entry key="678" type="xstring" value="caption*click: 0,1."/>
+<entry key="679" type="xstring" value="caption*for: 0,1."/>
+<entry key="680" type="xstring" value="caption*you: 0,1."/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="targetReferenceCategory">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="nonad."/>
+</config>
+</config>
+<entry key="useOrderFromTargetDomain" type="xboolean" value="false"/>
+<entry key="useOrderFromFeatureDomain" type="xboolean" value="false"/>
+<entry key="solver" type="xstring" value="SAG"/>
+<entry key="maxEpoch" type="xint" value="20000"/>
+<entry key="performLazy" type="xboolean" value="true"/>
+<entry key="epsilon" type="xdouble" value="1.0E-5"/>
+<entry key="learningRateStrategy" type="xstring" value="LineSearch"/>
+<entry key="prior" type="xstring" value="Uniform"/>
+<entry key="stepSize" type="xdouble" value="0.1"/>
+<entry key="priorVariance" type="xdouble" value="0.1"/>
+<entry key="inMemory" type="xboolean" value="true"/>
+<entry key="seed" type="xstring" value="1510242988611"/>
+<entry key="chunkSize" type="xint" value="10000"/>
+<entry key="calcCoefficientStatistics" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Uniform"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="595"/>
+<entry key="y-coordinate" type="xint" value="360"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="13"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="The data contains more features than rows. In this case it is recommended to use an informative prior (other than Uniform)."/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4"/>
+<entry key="node-name" type="xstring" value="Logistic Regression Learner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.3.v202105242122"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Logistic Regression Learner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+<entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: GeneralRegressionModel"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 683, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 2"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="b4ca7f84-2018-4da9-b88a-0d24ff4e3a06"/>
+</config>
+</config>

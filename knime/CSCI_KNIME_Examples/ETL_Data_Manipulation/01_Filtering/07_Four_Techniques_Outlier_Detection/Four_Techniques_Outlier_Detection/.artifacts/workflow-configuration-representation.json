@@ -1,0 +1,75 @@
+
+{
+    "epsilon-833": {
+        "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeRepresentation",
+        "label": "Epsilon",
+        "description": "The distance within which the number of points are to be counted, to determine which points are core points.",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 1.5
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 1.5
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "k-830": {
+        "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeRepresentation",
+        "label": "Interquartile range multiplier (k)",
+        "description": "To detect the outliers for a given column, the first and third quartile (Q1, Q3) is computed. An observation is flagged an outlier if it lies outside the range R = [Q1 - k(IQR), Q3 + k(IQR)] with IQR = Q3 - Q1\tand k >= 0. Setting k = 1.5 the smallest value in R corresponds, typically, to the lower end of a boxplot's whisker and largest value to its upper end. ",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 1.5
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 1.5
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "MinPts-832": {
+        "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeRepresentation",
+        "label": "Minimum Points",
+        "description": "The minimum number of points used to form a cluster.",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 3
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 3
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 0,
+        "max": 100
+    },
+    "z-831": {
+        "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeRepresentation",
+        "label": "Outlier Threshold",
+        "description": "Define how many times the standard deviation the standardized values are allowed to deviate from the mean without being an outlier. Normally used values are 2.5, 3 and 3.5.",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 2.5
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 2.5
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 0.0,
+        "max": 1.0
+    }
+}

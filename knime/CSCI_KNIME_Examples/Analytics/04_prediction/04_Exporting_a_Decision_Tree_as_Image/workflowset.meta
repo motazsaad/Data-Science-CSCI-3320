@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">wiswedel</element><element xmlns="" form="date" name="Creation Date">20/0/2016/9:23:15 +01:00</element><element xmlns="" form="multiline" name="Comments">How to use the Decision Tree to Image node
+
+The workflow learns a decision tree on a data set and applies the model on a new data set, whereby the distribution is shown in small histogram depiction.</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2016-03-22 18:10:02 +0100</element></KNIMEMetaInfo>

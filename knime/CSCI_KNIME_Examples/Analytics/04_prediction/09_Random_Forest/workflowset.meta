@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">rs</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">11/6/2019/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">Training a Random Forest
+
+Training a decision tree and training a random forest of decision trees.
+
+
+
+VIDEO: Decision Tree Node: Algorithm Settings https://youtu.be/CSwM92yTrJw
+TAGS: classification,machine learning,prediction,analytics,KNIME,decision tree,data science,C4.5,CART,random forest,bagging,ensemble models,Onboarding,Data Science</met:element>
+</met:KNIMEMetaInfo>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">kathrinmelcher</element><element xmlns="" form="date" name="Creation Date">14/8/2017/13:32:37 +02:00</element><element xmlns="" form="multiline" name="Comments">Training a Decision Tree
+
+This workflow is an example of how to build a basic prediction / classification model using a decision tree. Dataset describes wine chemical features. Output class is wine color: red/white.
+
+VIDEO: Decision Tree Node: Algorithm Settings https://youtu.be/CSwM92yTrJw
+TAG: classification, machine learning, prediction, analytics, KNIME, decision tree, data science, C4.5, CART</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2017-10-17 09:38:46 +0200</element></KNIMEMetaInfo>

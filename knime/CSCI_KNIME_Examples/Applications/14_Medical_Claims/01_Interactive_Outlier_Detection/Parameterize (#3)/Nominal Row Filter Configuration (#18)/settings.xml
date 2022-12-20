@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="base_drg_codes (column)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Base DRG code"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="base_drg_codes"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Diabetes,Female reproductive system reconstructive procedures,G.I. hemorrhage,Simple pneumonia &amp; pleurisy,Alcohol/drug abuse or dependence w/o rehabilitation therapy,Permanent cardiac pacemaker implant,Psychoses,Rehabilitation,Renal failure,Traumatic stupor &amp; coma"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="base_drg_codes (column)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Base DRG code"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="base_drg_codes"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Diabetes,Female reproductive system reconstructive procedures,G.I. hemorrhage,Simple pneumonia &amp; pleurisy,Alcohol/drug abuse or dependence w/o rehabilitation therapy,Permanent cardiac pacemaker implant,Psychoses,Rehabilitation,Renal failure,Traumatic stupor &amp; coma"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<entry key="column" type="xstring" value="Base DRG code"/>
+<config key="values">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Diabetes"/>
+<entry key="1" type="xstring" value="Female reproductive system reconstructive procedures"/>
+<entry key="2" type="xstring" value="G.I. hemorrhage"/>
+<entry key="3" type="xstring" value="Simple pneumonia &amp; pleurisy"/>
+<entry key="4" type="xstring" value="Alcohol/drug abuse or dependence w/o rehabilitation therapy"/>
+<entry key="5" type="xstring" value="Permanent cardiac pacemaker implant"/>
+</config>
+</config>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="parameterName" type="xstring" value="base_drg_codes"/>
+<entry key="label" type="xstring" value="Base DRG Codes"/>
+<entry key="description" type="xstring" value="This is a set of 311 possible codes derived from MS-DRG codes. It identifies a basic diagnosis or a set of diagnoses. A base DRG code might be comprimised of up to three MS-DRG codes."/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="flowVariableName" type="xstring" value="base_drg_codes"/>
+<entry key="lockColumn" type="xboolean" value="false"/>
+<config key="possibleColumns">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Base DRG code"/>
+<entry key="1" type="xstring" value="Beneficiary Age category code"/>
+<entry key="2" type="xstring" value="Beneficiary gender code"/>
+<entry key="3" type="xstring" value="ICD9 primary procedure code"/>
+<entry key="4" type="xstring" value="Inpatient days code"/>
+</config>
+<config key="colValues">
+<config key="Base DRG code">
+<entry key="array-size" type="xint" value="311"/>
+<entry key="0" type="xstring" value="Trach w MV 96+ hrs or PDX exc face, mouth &amp; neck w/o maj O.R."/>
+<entry key="1" type="xstring" value="Diabetes"/>
+<entry key="2" type="xstring" value="Other digestive system O.R. procedures"/>
+<entry key="3" type="xstring" value="Esophagitis, gastroent &amp; misc digest disorders"/>
+<entry key="4" type="xstring" value="Female reproductive system reconstructive procedures"/>
+<entry key="5" type="xstring" value="G.I. hemorrhage"/>
+<entry key="6" type="xstring" value="Simple pneumonia &amp; pleurisy"/>
+<entry key="7" type="xstring" value="Alcohol/drug abuse or dependence w/o rehabilitation therapy"/>
+<entry key="8" type="xstring" value="Permanent cardiac pacemaker implant"/>
+<entry key="9" type="xstring" value="Major joint replacement or reattachment of lower extremity"/>
+<entry key="10" type="xstring" value="Psychoses"/>
+<entry key="11" type="xstring" value="Rehabilitation"/>
+<entry key="12" type="xstring" value="Renal failure"/>
+<entry key="13" type="xstring" value="Bone diseases &amp; arthropathies"/>
+<entry key="14" type="xstring" value="Traumatic stupor &amp; coma"/>
+<entry key="15" type="xstring" value="Pulmonary edema &amp; respiratory failure"/>
+<entry key="16" type="xstring" value="Respiratory system diagnosis w ventilator support &lt;96 hours"/>
+<entry key="17" type="xstring" value="Peripheral vascular disorders"/>
+<entry key="18" type="xstring" value="Dysequilibrium"/>
+<entry key="19" type="xstring" value="Nervous system neoplasms"/>
+<entry key="20" type="xstring" value="Chronic obstructive pulmonary disease"/>
+<entry key="21" type="xstring" value="Syncope &amp; collapse"/>
+<entry key="22" type="xstring" value="Nutritional &amp; misc metabolic disorders"/>
+<entry key="23" type="xstring" value="G.I. obstruction"/>
+<entry key="24" type="xstring" value="Infectious &amp; parasitic diseases w O.R. procedure"/>
+<entry key="25" type="xstring" value="Back &amp; neck proc exc spinal fusion"/>
+<entry key="26" type="xstring" value="Other kidney &amp; urinary tract procedures"/>
+<entry key="27" type="xstring" value="Cellulitis"/>
+<entry key="28" type="xstring" value="Shoulder,elbow or forearm proc,exc major joint proc"/>
+<entry key="29" type="xstring" value="Heart failure &amp; shock"/>
+<entry key="30" type="xstring" value="Amputation for circ sys disorders exc upper limb &amp; toe"/>
+<entry key="31" type="xstring" value="Vaginal delivery w/o complicating diagnoses"/>
+<entry key="32" type="xstring" value="Septicemia w/o MV 96+ hours"/>
+<entry key="33" type="xstring" value="Red blood cell disorders"/>
+<entry key="34" type="xstring" value="Spinal fusion except cervical"/>
+<entry key="35" type="xstring" value="Intracranial hemorrhage or cerebral infarction"/>
+<entry key="36" type="xstring" value="Respiratory infections &amp; inflammations"/>
+<entry key="37" type="xstring" value="Transurethral prostatectomy"/>
+<entry key="38" type="xstring" value="Alcohol/drug abuse or dependence w rehabilitation therapy"/>
+<entry key="39" type="xstring" value="Signs &amp; symptoms"/>
+<entry key="40" type="xstring" value="Transurethral procedures"/>
+<entry key="41" type="xstring" value="Respiratory system diagnosis w ventilator support 96+ hours"/>
+<entry key="42" type="xstring" value="Other musculoskelet sys &amp; conn tiss O.R. proc"/>
+<entry key="43" type="xstring" value="Acute myocardial infarction, discharged alive"/>
+<entry key="44" type="xstring" value="Craniotomy &amp; endovascular intracranial procedures"/>
+<entry key="45" type="xstring" value="Wnd debrid &amp; skn grft exc hand, for musculo-conn tiss dis"/>
+<entry key="46" type="xstring" value="Perc cardiovasc proc w/o coronary artery stent or AMI"/>
+<entry key="47" type="xstring" value="Hip &amp; femur procedures except major joint"/>
+<entry key="48" type="xstring" value="Disorders of pancreas except malignancy"/>
+<entry key="49" type="xstring" value="Other endocrine, nutrit &amp; metab O.R. proc"/>
+<entry key="50" type="xstring" value="Transient ischemia"/>
+<entry key="51" type="xstring" value="Inguinal &amp; femoral hernia procedures"/>
+<entry key="52" type="xstring" value="Kidney &amp; ureter procedures for non-neoplasm"/>
+<entry key="53" type="xstring" value="Major small &amp; large bowel procedures"/>
+<entry key="54" type="xstring" value="Other digestive system diagnoses"/>
+<entry key="55" type="xstring" value="Chest pain"/>
+<entry key="56" type="xstring" value="Cranial &amp; peripheral nerve disorders"/>
+<entry key="57" type="xstring" value="Cardiac arrhythmia &amp; conduction disorders"/>
+<entry key="58" type="xstring" value="Respiratory neoplasms"/>
+<entry key="59" type="xstring" value="Bronchitis &amp; asthma"/>
+<entry key="60" type="xstring" value="Major male pelvic procedures"/>
+<entry key="61" type="xstring" value="Skin ulcers"/>
+<entry key="62" type="xstring" value="Degenerative nervous system disorders"/>
+<entry key="63" type="xstring" value="Circulatory disorders except AMI, w card cath"/>
+<entry key="64" type="xstring" value="Perc cardiovasc proc w drug-eluting stent w MCC"/>
+<entry key="65" type="xstring" value="Major joint &amp; limb reattachment proc of upper extremity"/>
+<entry key="66" type="xstring" value="Kidney &amp; urinary tract infections"/>
+<entry key="67" type="xstring" value="Skin graft &amp;/or debrid for skn ulcer or cellulitis"/>
+<entry key="68" type="xstring" value="Pathological fractures &amp; musculoskelet &amp; conn tiss malig"/>
+<entry key="69" type="xstring" value="Extracranial procedures"/>
+<entry key="70" type="xstring" value="Seizures"/>
+<entry key="71" type="xstring" value="Skin graft &amp;/or debrid exc for skin ulcer or cellulitis"/>
+<entry key="72" type="xstring" value="Complications of treatment"/>
+<entry key="73" type="xstring" value="Other resp system O.R."/>
+<entry key="74" type="xstring" value="Concussion"/>
+<entry key="75" type="xstring" value="Disorders of the biliary tract"/>
+<entry key="76" type="xstring" value="Extensive O.R. procedure unrelated to principal diagnosis"/>
+<entry key="77" type="xstring" value="Medical back problems"/>
+<entry key="78" type="xstring" value="Appendectomy w/o complicated principal diag"/>
+<entry key="79" type="xstring" value="Carotid artery stent procedure"/>
+<entry key="80" type="xstring" value="Major hematol/immun diag exc sickle cell crisis &amp; coagul"/>
+<entry key="81" type="xstring" value="Other skin, subcut tiss &amp; breast proc"/>
+<entry key="82" type="xstring" value="Respiratory signs &amp; symptoms"/>
+<entry key="83" type="xstring" value="Poisoning &amp; toxic effects of drugs"/>
+<entry key="84" type="xstring" value="Septicemia w MV 96+ hours"/>
+<entry key="85" type="xstring" value="Cardiac defibrillator implant w/o cardiac cath"/>
+<entry key="86" type="xstring" value="Other disorders of nervous system"/>
+<entry key="87" type="xstring" value="Coronary bypass w cardiac cath"/>
+<entry key="88" type="xstring" value="Other circulatory system diagnoses"/>
+<entry key="89" type="xstring" value="Other infectious &amp; parasitic diseases diagnoses"/>
+<entry key="90" type="xstring" value="Perc cardiovasc proc w non-drug-eluting stent"/>
+<entry key="91" type="xstring" value="Laparoscopic cholecystectomy w/o c.d.e."/>
+<entry key="92" type="xstring" value="Hernia procedures except inguinal &amp; femoral"/>
+<entry key="93" type="xstring" value="Cervical spinal fusion"/>
+<entry key="94" type="xstring" value="Organic disturbances &amp; mental retardation"/>
+<entry key="95" type="xstring" value="Other kidney &amp; urinary tract diagnoses"/>
+<entry key="96" type="xstring" value="Lymphoma &amp; leukemia w major O.R. procedure"/>
+<entry key="97" type="xstring" value="Coagulation disorders"/>
+<entry key="98" type="xstring" value="Nonspecific cerebrovascular disorders"/>
+<entry key="99" type="xstring" value="O.R. procedures for obesity"/>
+<entry key="100" type="xstring" value="Major gastrointestinal disorders &amp; peritoneal infections"/>
+<entry key="101" type="xstring" value="Uterine &amp; adnexa proc for non-malignancy"/>
+<entry key="102" type="xstring" value="Major cardiovasc procedures"/>
+<entry key="103" type="xstring" value="Malignancy of hepatobiliary system or pancreas"/>
+<entry key="104" type="xstring" value="Peritoneal adhesiolysis"/>
+<entry key="105" type="xstring" value="Signs &amp; symptoms of musculoskeletal system &amp; conn tissue"/>
+<entry key="106" type="xstring" value="Coronary bypass w/o cardiac cath"/>
+<entry key="107" type="xstring" value="Cardiac valve &amp; oth maj cardiothoracic proc w/o card cath"/>
+<entry key="108" type="xstring" value="Pulmonary embolism"/>
+<entry key="109" type="xstring" value="Cardiac pacemaker revision except device replacement"/>
+<entry key="110" type="xstring" value="Revision of hip or knee replacement"/>
+<entry key="111" type="xstring" value="Kidney &amp; ureter procedures for neoplasm"/>
+<entry key="112" type="xstring" value="Spinal fus exc cerv w spinal curv/malig/infec or 9+ fus"/>
+<entry key="113" type="xstring" value="Minor small &amp; large bowel procedures"/>
+<entry key="114" type="xstring" value="Lymphoma &amp; non-acute leukemia"/>
+<entry key="115" type="xstring" value="Minor bladder procedures"/>
+<entry key="116" type="xstring" value="Non-extensive O.R. proc unrelated to principal diagnosis"/>
+<entry key="117" type="xstring" value="Other cardiothoracic procedures"/>
+<entry key="118" type="xstring" value="Trauma to the skin, subcut tiss &amp; breast"/>
+<entry key="119" type="xstring" value="Lower extrem &amp; humer proc except hip,foot,femur"/>
+<entry key="120" type="xstring" value="Nontraumatic stupor &amp; coma"/>
+<entry key="121" type="xstring" value="Pneumothorax"/>
+<entry key="122" type="xstring" value="Hypertension"/>
+<entry key="123" type="xstring" value="Other vascular procedures"/>
+<entry key="124" type="xstring" value="Digestive malignancy"/>
+<entry key="125" type="xstring" value="Other respiratory system diagnoses"/>
+<entry key="126" type="xstring" value="Upper limb &amp; toe amputation for circ system disorders"/>
+<entry key="127" type="xstring" value="Cardiac valve &amp; oth maj cardiothoracic proc w card cath"/>
+<entry key="128" type="xstring" value="Postoperative &amp; post-traumatic infections"/>
+<entry key="129" type="xstring" value="Tendonitis, myositis &amp; bursitis"/>
+<entry key="130" type="xstring" value="Biopsies of musculoskeletal system &amp; connective tissue"/>
+<entry key="131" type="xstring" value="Deep vein thrombophlebitis"/>
+<entry key="132" type="xstring" value="Anal &amp; stomal procedures"/>
+<entry key="133" type="xstring" value="Major chest procedures"/>
+<entry key="134" type="xstring" value="Combined anterior/posterior spinal fusion"/>
+<entry key="135" type="xstring" value="Headaches"/>
+<entry key="136" type="xstring" value="Nonspecific cva &amp; precerebral occlusion w/o infarct"/>
+<entry key="137" type="xstring" value="Pelvic evisceration, rad hysterectomy &amp; rad vulvectomy"/>
+<entry key="138" type="xstring" value="Urinary stones w/o esw lithotripsy"/>
+<entry key="139" type="xstring" value="Endocrine disorders"/>
+<entry key="140" type="xstring" value="Fractures of hip &amp; pelvis"/>
+<entry key="141" type="xstring" value="Tracheostomy for face,mouth &amp; neck diagnoses"/>
+<entry key="142" type="xstring" value="Malignancy, female reproductive system"/>
+<entry key="143" type="xstring" value="Lymphoma &amp; non-acute leukemia w other O.R. proc"/>
+<entry key="144" type="xstring" value="Amputation for musculoskeletal sys &amp; conn tissue dis"/>
+<entry key="145" type="xstring" value="Atherosclerosis"/>
+<entry key="146" type="xstring" value="Fx, sprn, strn &amp; disl except femur, hip, pelvis &amp; thigh"/>
+<entry key="147" type="xstring" value="Neurological eye disorders"/>
+<entry key="148" type="xstring" value="Thyroid, parathyroid &amp; thyroglossal procedures"/>
+<entry key="149" type="xstring" value="Chemotherapy w/o acute leukemia as secondary diagnosis"/>
+<entry key="150" type="xstring" value="Inflammatory bowel disease"/>
+<entry key="151" type="xstring" value="Aftercare"/>
+<entry key="152" type="xstring" value="Traumatic injury"/>
+<entry key="153" type="xstring" value="Inflammation of the male reproductive system"/>
+<entry key="154" type="xstring" value="Other musculoskeletal sys &amp; connective tissue diagnoses"/>
+<entry key="155" type="xstring" value="Hypertensive encephalopathy"/>
+<entry key="156" type="xstring" value="Acute ischemic stroke w use of thrombolytic agent"/>
+<entry key="157" type="xstring" value="Other circulatory system O.R. procedures"/>
+<entry key="158" type="xstring" value="Disorders of liver except malig,cirr,alc hepa"/>
+<entry key="159" type="xstring" value="Cardiac pacemaker device replacement"/>
+<entry key="160" type="xstring" value="Rectal resection"/>
+<entry key="161" type="xstring" value="Cholecystectomy except by laparoscope w/o c.d.e."/>
+<entry key="162" type="xstring" value="Cardiac defib implant w cardiac cath w AMI/HF/shock"/>
+<entry key="163" type="xstring" value="Osteomyelitis"/>
+<entry key="164" type="xstring" value="Stomach, esophageal &amp; duodenal proc"/>
+<entry key="165" type="xstring" value="Interstitial lung disease"/>
+<entry key="166" type="xstring" value="Otitis media &amp; URI"/>
+<entry key="167" type="xstring" value="Kidney transplant"/>
+<entry key="168" type="xstring" value="Infections, female reproductive system"/>
+<entry key="169" type="xstring" value="Local excision &amp; removal int fix devices exc hip &amp; femur"/>
+<entry key="170" type="xstring" value="Wound debridements for injuries"/>
+<entry key="171" type="xstring" value="Neuroses except depressive"/>
+<entry key="172" type="xstring" value="Chemo w acute leukemia as sdx"/>
+<entry key="173" type="xstring" value="Acute adjustment reaction &amp; psychosocial dysfunction"/>
+<entry key="174" type="xstring" value="Cirrhosis &amp; alcoholic hepatitis"/>
+<entry key="175" type="xstring" value="ECMO or trach w MV 96+ hrs or PDX exc face, mouth &amp; neck w maj O.R."/>
+<entry key="176" type="xstring" value="Periph/cranial nerve &amp; other nerv syst"/>
+<entry key="177" type="xstring" value="Cardiac congenital &amp; valvular disorders"/>
+<entry key="178" type="xstring" value="Other O.R. procedures for injuries"/>
+<entry key="179" type="xstring" value="Fractures of femur"/>
+<entry key="180" type="xstring" value="Bilateral or multiple major joint procs of lower extremity"/>
+<entry key="181" type="xstring" value="Depressive neuroses"/>
+<entry key="182" type="xstring" value="Major chest trauma"/>
+<entry key="183" type="xstring" value="Kidney &amp; urinary tract signs &amp; symptoms"/>
+<entry key="184" type="xstring" value="Nasal trauma &amp; deformity"/>
+<entry key="185" type="xstring" value="Pleural effusion"/>
+<entry key="186" type="xstring" value="Soft tissue procedures"/>
+<entry key="187" type="xstring" value="Testes procedures"/>
+<entry key="188" type="xstring" value="Bone marrow transplant"/>
+<entry key="189" type="xstring" value="Fever of unknown origin"/>
+<entry key="190" type="xstring" value="Acute myocardial infarction, expired"/>
+<entry key="191" type="xstring" value="Major bladder procedures"/>
+<entry key="192" type="xstring" value="HIV w major related condition"/>
+<entry key="193" type="xstring" value="Uterine &amp; adnexa proc for ovarian or adnexal malignancy"/>
+<entry key="194" type="xstring" value="Other injury, poisoning &amp; toxic effect diag"/>
+<entry key="195" type="xstring" value="Reticuloendothelial &amp; immunity disorders"/>
+<entry key="196" type="xstring" value="Aftercare, musculoskeletal system &amp; connective tissue"/>
+<entry key="197" type="xstring" value="Angina pectoris"/>
+<entry key="198" type="xstring" value="Malignant breast disorders"/>
+<entry key="199" type="xstring" value="Connective tissue disorders"/>
+<entry key="200" type="xstring" value="Cesarean section"/>
+<entry key="201" type="xstring" value="Postoperative or post-traumatic infections w O.R. proc"/>
+<entry key="202" type="xstring" value="Uncomplicated peptic ulcer"/>
+<entry key="203" type="xstring" value="Ventricular shunt procedures"/>
+<entry key="204" type="xstring" value="Viral illness"/>
+<entry key="205" type="xstring" value="Prostatectomy"/>
+<entry key="206" type="xstring" value="Full thickness burn w skin graft or inhal inj"/>
+<entry key="207" type="xstring" value="Biliary tract proc except only cholecyst w or w/o c.d.e."/>
+<entry key="208" type="xstring" value="Multiple sclerosis &amp; cerebellar ataxia"/>
+<entry key="209" type="xstring" value="Inborn errors of metabolism"/>
+<entry key="210" type="xstring" value="Mastectomy for malignancy"/>
+<entry key="211" type="xstring" value="Spinal procedures"/>
+<entry key="212" type="xstring" value="Other multiple significant trauma"/>
+<entry key="213" type="xstring" value="Vagina, cervix &amp; vulva procedures"/>
+<entry key="214" type="xstring" value="Cardiac arrest, unexplained"/>
+<entry key="215" type="xstring" value="Adrenal &amp; pituitary procedures"/>
+<entry key="216" type="xstring" value="Skin grafts &amp; wound debrid for endoc, nutrit &amp; metab dis"/>
+<entry key="217" type="xstring" value="Major esophageal disorders"/>
+<entry key="218" type="xstring" value="Septic arthritis"/>
+<entry key="219" type="xstring" value="Other myeloprolif dis or poorly diff neopl diag"/>
+<entry key="220" type="xstring" value="Other disorders of the eye"/>
+<entry key="221" type="xstring" value="Coronary bypass w PTCA"/>
+<entry key="222" type="xstring" value="Traumatic stupor &amp; coma, coma &gt;1 hr"/>
+<entry key="223" type="xstring" value="Cardiac defib implant w cardiac cath w/o AMI/HF/shock"/>
+<entry key="224" type="xstring" value="Amputat of lower limb for endocrine,nutrit,&amp; metabol dis"/>
+<entry key="225" type="xstring" value="Splenectomy"/>
+<entry key="226" type="xstring" value="Urethral procedures"/>
+<entry key="227" type="xstring" value="Cranio w major dev impl/acute complex CNS PDX"/>
+<entry key="228" type="xstring" value="O.R. proc w diagnoses of other contact w health services"/>
+<entry key="229" type="xstring" value="Alcohol/drug abuse or dependence, left ama"/>
+<entry key="230" type="xstring" value="Uterine,adnexa proc for non-ovarian/adnexal malig"/>
+<entry key="231" type="xstring" value="Acute leukemia w/o major O.R. procedure"/>
+<entry key="232" type="xstring" value="Foot procedures"/>
+<entry key="233" type="xstring" value="Prostatic O.R. procedure unrelated to principal diagnosis"/>
+<entry key="234" type="xstring" value="Complicated peptic ulcer"/>
+<entry key="235" type="xstring" value="Pancreas, liver &amp; shunt procedures"/>
+<entry key="236" type="xstring" value="AICD lead &amp; generator procedures"/>
+<entry key="237" type="xstring" value="Kidney &amp; urinary tract neoplasms"/>
+<entry key="238" type="xstring" value="Knee procedures w pdx of infection"/>
+<entry key="239" type="xstring" value="Appendectomy w complicated principal diag"/>
+<entry key="240" type="xstring" value="Major shoulder or elbow joint procedures"/>
+<entry key="241" type="xstring" value="Minor skin disorders"/>
+<entry key="242" type="xstring" value="Major head &amp; neck procedures"/>
+<entry key="243" type="xstring" value="Limb reattachment, hip &amp; femur proc for multiple significant trauma"/>
+<entry key="244" type="xstring" value="Dental &amp; Oral Diseases"/>
+<entry key="245" type="xstring" value="Other male reproductive system O.R. proc for malignancy"/>
+<entry key="246" type="xstring" value="Epistaxis"/>
+<entry key="247" type="xstring" value="Skin grafts for injuries"/>
+<entry key="248" type="xstring" value="Knee procedures w/o pdx of infection"/>
+<entry key="249" type="xstring" value="D&amp;C, conization, laparascopy &amp; tubal interruption"/>
+<entry key="250" type="xstring" value="Allergic reactions"/>
+<entry key="251" type="xstring" value="Urinary stones w esw lithotripsy"/>
+<entry key="252" type="xstring" value="Other antepartum diagnoses w medical complications"/>
+<entry key="253" type="xstring" value="Simultaneous pancreas/kidney transplant"/>
+<entry key="254" type="xstring" value="HIV w or w/o other related condition"/>
+<entry key="255" type="xstring" value="Other hepatobiliary or pancreas O.R. procedures"/>
+<entry key="256" type="xstring" value="Ectopic pregnancy"/>
+<entry key="257" type="xstring" value="Benign prostatic hypertrophy"/>
+<entry key="258" type="xstring" value="Penis procedures"/>
+<entry key="259" type="xstring" value="Myeloprolif disord or poorly diff neopl w maj O.R. proc"/>
+<entry key="260" type="xstring" value="Disorders of personality &amp; impulse control"/>
+<entry key="261" type="xstring" value="Acute &amp; subacute endocarditis"/>
+<entry key="262" type="xstring" value="Mouth procedures"/>
+<entry key="263" type="xstring" value="Ungroupable"/>
+<entry key="264" type="xstring" value="Major skin disorders"/>
+<entry key="265" type="xstring" value="Sprains, strains, &amp; dislocations of hip, pelvis &amp; thigh"/>
+<entry key="266" type="xstring" value="Other ear, nose, mouth &amp; throat O.R. procedures"/>
+<entry key="267" type="xstring" value="Non-malignant breast disorders"/>
+<entry key="268" type="xstring" value="Menstrual &amp; other female reproductive system disorders"/>
+<entry key="269" type="xstring" value="Malignancy, male reproductive system"/>
+<entry key="270" type="xstring" value="Vaginal delivery w complicating diagnoses"/>
+<entry key="271" type="xstring" value="Salivary gland procedures"/>
+<entry key="272" type="xstring" value="Non-extensive burns"/>
+<entry key="273" type="xstring" value="Abortion w D&amp;C, aspiration curettage or hysterotomy"/>
+<entry key="274" type="xstring" value="Non-bacterial infect of nervous sys exc viral meningitis"/>
+<entry key="275" type="xstring" value="Cranial/facial procedures"/>
+<entry key="276" type="xstring" value="Behavioral &amp; developmental disorders"/>
+<entry key="277" type="xstring" value="Other factors influencing health status"/>
+<entry key="278" type="xstring" value="Local excision &amp; removal int fix devices of hip &amp; femur"/>
+<entry key="279" type="xstring" value="Breast biopsy, local excision &amp; other breast procedures"/>
+<entry key="280" type="xstring" value="Bacterial &amp; tuberculous infections of nervous system"/>
+<entry key="281" type="xstring" value="Orbital procedures"/>
+<entry key="282" type="xstring" value="Admit for renal dialysis"/>
+<entry key="283" type="xstring" value="Cholecystectomy w c.d.e."/>
+<entry key="284" type="xstring" value="Other male reproductive system O.R. proc exc malignancy"/>
+<entry key="285" type="xstring" value="Liver transplant"/>
+<entry key="286" type="xstring" value="Major thumb or joint procedures"/>
+<entry key="287" type="xstring" value="Intracranial vascular procedures w PDX hemorrhage"/>
+<entry key="288" type="xstring" value="Acute major eye infections"/>
+<entry key="289" type="xstring" value="Heart transplant or implant of heart assist system"/>
+<entry key="290" type="xstring" value="Lung transplant"/>
+<entry key="291" type="xstring" value="Other O.R. procedures for multiple significant trauma"/>
+<entry key="292" type="xstring" value="Hand or wrist proc, except major thumb or joint proc"/>
+<entry key="293" type="xstring" value="Other O.R. proc of the blood &amp; blood forming organs"/>
+<entry key="294" type="xstring" value="Viral meningitis"/>
+<entry key="295" type="xstring" value="Postpartum &amp; post abortion diagnoses w/o O.R. procedure"/>
+<entry key="296" type="xstring" value="Hepatobiliary diagnostic procedures"/>
+<entry key="297" type="xstring" value="Spinal disorders &amp; injuries"/>
+<entry key="298" type="xstring" value="Hand procedures for injuries"/>
+<entry key="299" type="xstring" value="Other female reproductive system O.R. procedures"/>
+<entry key="300" type="xstring" value="Other mental disorder diagnoses"/>
+<entry key="301" type="xstring" value="Threatened abortion"/>
+<entry key="302" type="xstring" value="Radiotherapy"/>
+<entry key="303" type="xstring" value="Ear, nose, mouth &amp; throat malignancy"/>
+<entry key="304" type="xstring" value="Other antepartum diagnoses w/o medical complications"/>
+<entry key="305" type="xstring" value="Other male reproductive system diagnoses"/>
+<entry key="306" type="xstring" value="Intraocular procedures"/>
+<entry key="307" type="xstring" value="HIV w extensive O.R. procedure"/>
+<entry key="308" type="xstring" value="Pancreas transplant"/>
+<entry key="309" type="xstring" value="Extensive burns or full thickness burns w MV 96+ hrs w skin graft"/>
+<entry key="310" type="xstring" value="O.R. procedure w principal diagnoses of mental illness"/>
+</config>
+<config key="Beneficiary Age category code">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="75 - 79 "/>
+<entry key="1" type="xstring" value="80 - 84 "/>
+<entry key="2" type="xstring" value="Under  65 "/>
+<entry key="3" type="xstring" value="65 - 69 "/>
+<entry key="4" type="xstring" value="70 - 74 "/>
+<entry key="5" type="xstring" value="85 &amp; Older"/>
+</config>
+<config key="Beneficiary gender code">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="female"/>
+<entry key="1" type="xstring" value="male"/>
+</config>
+<config key="ICD9 primary procedure code">
+<entry key="array-size" type="xint" value="86"/>
+<entry key="0" type="xstring" value="Larynx trachea ops nec"/>
+<entry key="1" type="xstring" value="No procedure performed"/>
+<entry key="2" type="xstring" value="Other abdomen region ops"/>
+<entry key="3" type="xstring" value="Vagina &amp; cul-de-sac ops"/>
+<entry key="4" type="xstring" value="Intest incis/excis/anast"/>
+<entry key="5" type="xstring" value="Psyche related procedure"/>
+<entry key="6" type="xstring" value="Other heart/pericard ops"/>
+<entry key="7" type="xstring" value="Joint repair"/>
+<entry key="8" type="xstring" value="Pt, rehab &amp; related proc"/>
+<entry key="9" type="xstring" value="Vessel inc/excis/occlus"/>
+<entry key="10" type="xstring" value="Non-op intubat &amp; irrigat"/>
+<entry key="11" type="xstring" value="Other intestinal ops"/>
+<entry key="12" type="xstring" value="Biliary tract operation"/>
+<entry key="13" type="xstring" value="Incision/excision joint"/>
+<entry key="14" type="xstring" value="Other ops on vessels"/>
+<entry key="15" type="xstring" value="Reduction fx/dislocation"/>
+<entry key="16" type="xstring" value="Other musculoskelet proc"/>
+<entry key="17" type="xstring" value="Assist/induce deliv nec"/>
+<entry key="18" type="xstring" value="Other nonoperative proc"/>
+<entry key="19" type="xstring" value="Prostate &amp; semin ves ops"/>
+<entry key="20" type="xstring" value="Urinary bladder ops"/>
+<entry key="21" type="xstring" value="Incise-excis brain/skull"/>
+<entry key="22" type="xstring" value="Skin &amp; subq operations"/>
+<entry key="23" type="xstring" value="Not elsewhere classified"/>
+<entry key="24" type="xstring" value="Other dx radiology"/>
+<entry key="25" type="xstring" value="Incis/excis/div bone nec"/>
+<entry key="26" type="xstring" value="Repair of hernia"/>
+<entry key="27" type="xstring" value="Operations on kidney"/>
+<entry key="28" type="xstring" value="Other bronchial/lung ops"/>
+<entry key="29" type="xstring" value="Interview/consult/exam"/>
+<entry key="30" type="xstring" value="Thorax ops except lung"/>
+<entry key="31" type="xstring" value="Gastric incision/excis"/>
+<entry key="32" type="xstring" value="Operations on appendix"/>
+<entry key="33" type="xstring" value="Lymphatic system ops"/>
+<entry key="34" type="xstring" value="Spinal cord &amp; canal ops"/>
+<entry key="35" type="xstring" value="Ops on heart vessels"/>
+<entry key="36" type="xstring" value="Other urinary tract ops"/>
+<entry key="37" type="xstring" value="Other gastric operations"/>
+<entry key="38" type="xstring" value="Other uterine incis/exc"/>
+<entry key="39" type="xstring" value="Heart valves &amp; septa ops"/>
+<entry key="40" type="xstring" value="Other uterus/support ops"/>
+<entry key="41" type="xstring" value="Operations on urethra"/>
+<entry key="42" type="xstring" value="Operations on anus"/>
+<entry key="43" type="xstring" value="Diagnostic radiology"/>
+<entry key="44" type="xstring" value="Operations on ovary"/>
+<entry key="45" type="xstring" value="Lung &amp; bronchus excision"/>
+<entry key="46" type="xstring" value="Thyroid/parathyroid ops"/>
+<entry key="47" type="xstring" value="Other mus/ten/fas/bur op"/>
+<entry key="48" type="xstring" value="Operations on the breast"/>
+<entry key="49" type="xstring" value="Rectal &amp; perirectal ops"/>
+<entry key="50" type="xstring" value="Operations on liver"/>
+<entry key="51" type="xstring" value="Other miscellaneous procedures"/>
+<entry key="52" type="xstring" value="Replace &amp; remov devices"/>
+<entry key="53" type="xstring" value="Oth bone ops excpt face"/>
+<entry key="54" type="xstring" value="Operations on testes"/>
+<entry key="55" type="xstring" value="Bone marrow &amp; spleen ops"/>
+<entry key="56" type="xstring" value="Operations on ureter"/>
+<entry key="57" type="xstring" value="C-section/removal fetus"/>
+<entry key="58" type="xstring" value="Other skull/brain ops"/>
+<entry key="59" type="xstring" value="Scrotum &amp; tunica vag ops"/>
+<entry key="60" type="xstring" value="Nuclear medicine"/>
+<entry key="61" type="xstring" value="Oth endocrine glnd ops"/>
+<entry key="62" type="xstring" value="Operations on esophagus"/>
+<entry key="63" type="xstring" value="Cran &amp; periph nerve ops"/>
+<entry key="64" type="xstring" value="Operations on pancreas"/>
+<entry key="65" type="xstring" value="Operations on nose"/>
+<entry key="66" type="xstring" value="Vulvar &amp; perineal ops"/>
+<entry key="67" type="xstring" value="Nonop remove foreign bod"/>
+<entry key="68" type="xstring" value="Operations on pharynx"/>
+<entry key="69" type="xstring" value="Other obstetric ops"/>
+<entry key="70" type="xstring" value="Fallopian tube operation"/>
+<entry key="71" type="xstring" value="Operations on penis"/>
+<entry key="72" type="xstring" value="Excision of larynx"/>
+<entry key="73" type="xstring" value="Operations on tongue"/>
+<entry key="74" type="xstring" value="Salivary gland operation"/>
+<entry key="75" type="xstring" value="Forcep/vac/breech deliv"/>
+<entry key="76" type="xstring" value="Facial bone &amp; joint ops"/>
+<entry key="77" type="xstring" value="Orbit/eyeball ops"/>
+<entry key="78" type="xstring" value="Other mouth &amp; face ops"/>
+<entry key="79" type="xstring" value="Hand muscl/tend/fasc ops"/>
+<entry key="80" type="xstring" value="Tonsil &amp; adenoid ops"/>
+<entry key="81" type="xstring" value="Eyelid operations"/>
+<entry key="82" type="xstring" value="Tooth removal &amp; restorat"/>
+<entry key="83" type="xstring" value="Operations on lens"/>
+<entry key="84" type="xstring" value="Posterior segment ops"/>
+<entry key="85" type="xstring" value="Operations on cervix"/>
+</config>
+<config key="Inpatient days code">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="8 or more days"/>
+<entry key="1" type="xstring" value="2-3 days"/>
+<entry key="2" type="xstring" value="1 day"/>
+<entry key="3" type="xstring" value="4-7 days"/>
+</config>
+</config>
+<entry key="type" type="xstring" value="Twinlist"/>
+<entry key="limit_number_visible_options" type="xboolean" value="false"/>
+<entry key="number_visible_options" type="xint" value="10"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="BASE DRG%%00013%%00010(diagnosis related group)"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="208"/>
+<entry key="y-coordinate" type="xint" value="259"/>
+<entry key="width" type="xint" value="144"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.configuration.filter.value.ValueFilterDialogNodeFactory"/>
+<entry key="node-name" type="xstring" value="Nominal Row Filter Configuration"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201912031356"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201912201454"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Nominal Row Filter Configuration"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 104122, Cols: 10"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="85755e89-8b90-4d99-b43c-11fbe03e37e0"/>
+</config>
+</config>

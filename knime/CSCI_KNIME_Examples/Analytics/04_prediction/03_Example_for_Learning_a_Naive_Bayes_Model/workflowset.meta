@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</element><element xmlns="" form="multiline" name="Comments">Naive Bayes
+
+A simple example using a Naive Bayes learner and predictor to classify some shuttle data.  For more background information see" http://archive.ics.uci.edu/ml/datasets/Statlog+(Shuttle)</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2016-02-22 10:58:23 +0100</element></KNIMEMetaInfo>

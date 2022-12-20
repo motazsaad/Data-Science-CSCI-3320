@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">rosy</met:element>
+<met:element form="date" read-only="false" name="Creation Date">19/8/2016/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Row Filter
+
+The workflow contains the following examples:&#13;
+- Three matching criteria on data columns (also on collection columns): on String by full or partial pattern matching, on numbers by range, and on missing values.&#13;
+- One matching criterion on row numbers:  from row number to row number.&#13;
+- One matching criterion on RowID: full and partial pattern matching.&#13;
+Partial pattern matching is obtained through wild cards and RegEx.&#13;
+All matching criteria can be used in Include or Exclude mode. Include keeps the match results. Exclude filters them out.&#13;
+
+
+VIDEO: Row Filtering: Part 1 (What is Row Filtering?) https://youtu.be/NJwWwpIEBpg
+VIDEO: Row Filtering: Part 2 (Row Filter with Pattern Matching) https://www.youtube.com/watch?v=j3YhdEgu0Z0
+VIDEO: Row Filtering: Part 3 (Row Filter based on Numerical Intervals or Missing Values) https://www.youtube.com/watch?v=rBmGjMu9EG4
+VIDEO: Row Filtering: Part 4 (Row Filter based on RowID) https://www.youtube.com/watch?v=nomaYlGJwmA&amp;feature=youtu.be
+TAGS: row filter,row filtering</met:element>
+</met:KNIMEMetaInfo>

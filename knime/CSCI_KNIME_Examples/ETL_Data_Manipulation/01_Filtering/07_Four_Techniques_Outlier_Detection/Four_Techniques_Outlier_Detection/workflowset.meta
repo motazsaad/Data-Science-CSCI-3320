@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">20/5/2018/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Four Techniques for Outlier Detection
+
+This workflow accesses a sample of data from the airline dataset and detects outlier airports based on the average arrival delay in them. The techniques applied are numeric outlier, z-score, DBSCAN and isolation forest. The outlier airports detected by each of these techniques are visualized on a map of US using the KNIME OSM integration.&#13;
+&#13;
+
+
+BLOG: Four Techniques for Outlier Detection https://www.knime.com/blog/four-techniques-for-outlier-detection
+URL: Airline data collected and published by DOT Bureau of Transportation Statistics https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
+TAGS: preprocessing,outlier,data cleaning,z-score,DBSCAN,numeric outlier,isolation forest</met:element>
+</met:KNIMEMetaInfo>

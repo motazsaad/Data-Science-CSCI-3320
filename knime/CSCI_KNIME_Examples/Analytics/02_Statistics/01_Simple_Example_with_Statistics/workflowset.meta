@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">&lt;unknown></met:element>
+  <met:element form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Very Simple Example for Statistics
+
+Flow splitts numeric from nominal columns, does some filtering and then joins the data back again. Additionally, the data is visualized in a Box Plot and Statistics' values are computed.</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2016-08-19 10:36:37 +0000</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2016-02-22 10:54:27 +0100</met:element>
+</met:KNIMEMetaInfo>

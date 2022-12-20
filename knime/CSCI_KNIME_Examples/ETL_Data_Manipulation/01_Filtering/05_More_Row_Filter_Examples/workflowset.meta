@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">rosy</met:element>
+<met:element form="date" read-only="false" name="Creation Date">31/0/2017/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Workflow to show Row Filtering examples
+
+Based on the adult.csv data set:&#13;
+&#13;
+1. Exclude rows where marital-status is missing. &#13;
+&#13;
+2. On the remaining rows:  &#13;
+a. extract rows where marital-status = "Divorced"&#13;
+b. extract rows where marital-status = "Divorced" OR "Separated" using a Nominal Value Row Filter node&#13;
+c. extract rows where marital-status = "Divorced" OR "Separated" using a Reference Row Filter node&#13;
+d. extract rows where marital-status = "Never-married" AND 20 &lt;= age &lt;= 40 AND workclass starts with "S"&#13;
+e. extract rows where marital-status = "Never-married" AND 20 &lt;= age &lt;= 40 using a Rule-based Row Filter node.&#13;
+&#13;
+&#13;
+
+
+TAGS: Row Filter,Row Filtering,ETL</met:element>
+</met:KNIMEMetaInfo>

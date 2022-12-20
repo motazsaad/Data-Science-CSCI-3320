@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">iris.adae</met:element>
+<met:element form="date" read-only="false" name="Creation Date">15/3/2016/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Generate a date and time column in fixed intervals
+
+Here the node generates a Date/Time cell with constant time intervals. The user can select a start date, the end date is always be execution time. &#13;
+&#13;
+If you have repeating functionalities, you won't want to copy the nodes on and on. Instead you can generate your own custom nodes. You can customize them via the Configuration nodes.&#13;
+
+
+TAGS: ETL,date,time</met:element>
+</met:KNIMEMetaInfo>

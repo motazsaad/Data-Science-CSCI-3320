@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="rosy">
+    <Application name="KNIME" version="3.4.0"/>
+  </Header>
+  <DataDictionary numberOfFields="29">
+    <DataField name="PCA dimension 0" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-5.600941718306112" rightMargin="6.019016157802138"/>
+    </DataField>
+    <DataField name="PCA dimension 1" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-5.206538117265583" rightMargin="8.024260390565981"/>
+    </DataField>
+    <DataField name="PCA dimension 2" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.882822337872148" rightMargin="8.510971107982568"/>
+    </DataField>
+    <DataField name="PCA dimension 3" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.2489101038545805" rightMargin="5.700217944992827"/>
+    </DataField>
+    <DataField name="PCA dimension 4" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-9.534233694597136" rightMargin="3.63234119283878"/>
+    </DataField>
+    <DataField name="PCA dimension 5" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.532960253093264" rightMargin="5.456356195696922"/>
+    </DataField>
+    <DataField name="PCA dimension 6" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.075378505819272" rightMargin="4.543954245220213"/>
+    </DataField>
+    <DataField name="PCA dimension 7" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-10.277656911749858" rightMargin="3.9731895319908612"/>
+    </DataField>
+    <DataField name="PCA dimension 8" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.086787709222684" rightMargin="4.084204970829553"/>
+    </DataField>
+    <DataField name="PCA dimension 9" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-6.690418278596097" rightMargin="4.157221751329142"/>
+    </DataField>
+    <DataField name="PCA dimension 10" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-7.80665569370212" rightMargin="5.862694362541964"/>
+    </DataField>
+    <DataField name="PCA dimension 11" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-2.922411565060356" rightMargin="6.841689662938786"/>
+    </DataField>
+    <DataField name="PCA dimension 12" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.549016807215381" rightMargin="14.37180785406052"/>
+    </DataField>
+    <DataField name="PCA dimension 13" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.707658352063079" rightMargin="6.545333811563023"/>
+    </DataField>
+    <DataField name="PCA dimension 14" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.580344111490394" rightMargin="3.0364990771805016"/>
+    </DataField>
+    <DataField name="PCA dimension 15" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-2.9755803218091943" rightMargin="2.9448163418531736"/>
+    </DataField>
+    <DataField name="PCA dimension 16" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-6.386495259772883" rightMargin="7.038727464784895"/>
+    </DataField>
+    <DataField name="PCA dimension 17" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.868896047836863" rightMargin="4.989411386564303"/>
+    </DataField>
+    <DataField name="PCA dimension 18" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-3.659565142548244" rightMargin="4.598274502077767"/>
+    </DataField>
+    <DataField name="PCA dimension 19" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-2.9803330268674038" rightMargin="3.754275366728367"/>
+    </DataField>
+    <DataField name="PCA dimension 20" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-6.219911545250273" rightMargin="3.081636184480618"/>
+    </DataField>
+    <DataField name="PCA dimension 21" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.216710207720547" rightMargin="2.7964166967033384"/>
+    </DataField>
+    <DataField name="PCA dimension 22" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-3.05853343851555" rightMargin="2.441086248546456"/>
+    </DataField>
+    <DataField name="PCA dimension 23" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-3.5275826226579317" rightMargin="8.247537937536896"/>
+    </DataField>
+    <DataField name="PCA dimension 24" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-3.2449510107366737" rightMargin="2.3641320722019286"/>
+    </DataField>
+    <DataField name="PCA dimension 25" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.994484977101808" rightMargin="4.157387549450461"/>
+    </DataField>
+    <DataField name="PCA dimension 26" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-4.938430330066812" rightMargin="2.2670453686372345"/>
+    </DataField>
+    <DataField name="PCA dimension 27" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-5.911023419743814" rightMargin="3.0916318460966346"/>
+    </DataField>
+    <DataField name="DepDelay" optype="categorical" dataType="string">
+      <Value value="delay"/>
+      <Value value="no delay"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="PCA dimension 0" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 1" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 2" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 3" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 4" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 5" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 6" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 7" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 8" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 9" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 10" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 11" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 12" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 13" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 14" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 15" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 16" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 17" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 18" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 19" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 20" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 21" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 22" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 23" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 24" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 25" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 26" invalidValueTreatment="asIs"/>
+      <MiningField name="PCA dimension 27" invalidValueTreatment="asIs"/>
+      <MiningField name="DepDelay" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="no delay" recordCount="741.0">
+      <True/>
+      <ScoreDistribution value="delay" recordCount="237.0"/>
+      <ScoreDistribution value="no delay" recordCount="504.0"/>
+      <Node id="2" score="no delay" recordCount="599.0">
+        <SimplePredicate field="PCA dimension 2" operator="lessOrEqual" value="1.8126145573015884"/>
+        <ScoreDistribution value="delay" recordCount="133.0"/>
+        <ScoreDistribution value="no delay" recordCount="466.0"/>
+        <Node id="23" score="no delay" recordCount="94.0">
+          <SimplePredicate field="PCA dimension 5" operator="lessOrEqual" value="-1.2157618879888756"/>
+          <ScoreDistribution value="delay" recordCount="43.0"/>
+          <ScoreDistribution value="no delay" recordCount="51.0"/>
+          <Node id="24" score="no delay" recordCount="51.0">
+            <SimplePredicate field="PCA dimension 7" operator="lessOrEqual" value="-0.2982910347203943"/>
+            <ScoreDistribution value="delay" recordCount="12.0"/>
+            <ScoreDistribution value="no delay" recordCount="39.0"/>
+            <Node id="25" score="no delay" recordCount="39.0">
+              <SimplePredicate field="PCA dimension 17" operator="lessOrEqual" value="0.36230425942942845"/>
+              <ScoreDistribution value="delay" recordCount="5.0"/>
+              <ScoreDistribution value="no delay" recordCount="34.0"/>
+            </Node>
+            <Node id="30" score="delay" recordCount="12.0">
+              <SimplePredicate field="PCA dimension 17" operator="greaterThan" value="0.36230425942942845"/>
+              <ScoreDistribution value="delay" recordCount="7.0"/>
+              <ScoreDistribution value="no delay" recordCount="5.0"/>
+              <Node id="31" score="no delay" recordCount="6.0">
+                <SimplePredicate field="PCA dimension 26" operator="lessOrEqual" value="0.38572103091183874"/>
+                <ScoreDistribution value="delay" recordCount="2.0"/>
+                <ScoreDistribution value="no delay" recordCount="4.0"/>
+              </Node>
+              <Node id="32" score="delay" recordCount="6.0">
+                <SimplePredicate field="PCA dimension 26" operator="greaterThan" value="0.38572103091183874"/>
+                <ScoreDistribution value="delay" recordCount="5.0"/>
+                <ScoreDistribution value="no delay" recordCount="1.0"/>
+              </Node>
+            </Node>
+          </Node>
+          <Node id="33" score="delay" recordCount="43.0">
+            <SimplePredicate field="PCA dimension 7" operator="greaterThan" value="-0.2982910347203943"/>
+            <ScoreDistribution value="delay" recordCount="31.0"/>
+            <ScoreDistribution value="no delay" recordCount="12.0"/>
+            <Node id="34" score="delay" recordCount="34.0">
+              <SimplePredicate field="PCA dimension 10" operator="lessOrEqual" value="0.2802495130145954"/>
+              <ScoreDistribution value="delay" recordCount="29.0"/>
+              <ScoreDistribution value="no delay" recordCount="5.0"/>
+            </Node>
+            <Node id="39" score="no delay" recordCount="9.0">
+              <SimplePredicate field="PCA dimension 10" operator="greaterThan" value="0.2802495130145954"/>
+              <ScoreDistribution value="delay" recordCount="2.0"/>
+              <ScoreDistribution value="no delay" recordCount="7.0"/>
+            </Node>
+          </Node>
+        </Node>
+        <Node id="40" score="no delay" recordCount="505.0">
+          <SimplePredicate field="PCA dimension 5" operator="greaterThan" value="-1.2157618879888756"/>
+          <ScoreDistribution value="delay" recordCount="90.0"/>
+          <ScoreDistribution value="no delay" recordCount="415.0"/>
+          <Node id="41" score="no delay" recordCount="273.0">
+            <SimplePredicate field="PCA dimension 2" operator="lessOrEqual" value="-0.4842118128652516"/>
+            <ScoreDistribution value="delay" recordCount="28.0"/>
+            <ScoreDistribution value="no delay" recordCount="245.0"/>
+            <Node id="42" score="no delay" recordCount="34.0">
+              <SimplePredicate field="PCA dimension 9" operator="lessOrEqual" value="-1.1149977866508094"/>
+              <ScoreDistribution value="delay" recordCount="11.0"/>
+              <ScoreDistribution value="no delay" recordCount="23.0"/>
+              <Node id="43" score="no delay" recordCount="22.0">
+                <SimplePredicate field="PCA dimension 0" operator="lessOrEqual" value="0.8461294808099917"/>
+                <ScoreDistribution value="delay" recordCount="4.0"/>
+                <ScoreDistribution value="no delay" recordCount="18.0"/>
+              </Node>
+              <Node id="46" score="delay" recordCount="12.0">
+                <SimplePredicate field="PCA dimension 0" operator="greaterThan" value="0.8461294808099917"/>
+                <ScoreDistribution value="delay" recordCount="7.0"/>
+                <ScoreDistribution value="no delay" recordCount="5.0"/>
+                <Node id="47" score="delay" recordCount="6.0">
+                  <SimplePredicate field="PCA dimension 18" operator="lessOrEqual" value="-0.2877108379755231"/>
+                  <ScoreDistribution value="delay" recordCount="5.0"/>
+                  <ScoreDistribution value="no delay" recordCount="1.0"/>
+                </Node>
+                <Node id="48" score="no delay" recordCount="6.0">
+                  <SimplePredicate field="PCA dimension 18" operator="greaterThan" value="-0.2877108379755231"/>
+                  <ScoreDistribution value="delay" recordCount="2.0"/>
+                  <ScoreDistribution value="no delay" recordCount="4.0"/>
+                </Node>
+              </Node>
+            </Node>
+            <Node id="49" score="no delay" recordCount="239.0">
+              <SimplePredicate field="PCA dimension 9" operator="greaterThan" value="-1.1149977866508094"/>
+              <ScoreDistribution value="delay" recordCount="17.0"/>
+              <ScoreDistribution value="no delay" recordCount="222.0"/>
+              <Node id="50" score="no delay" recordCount="216.0">
+                <SimplePredicate field="PCA dimension 0" operator="lessOrEqual" value="3.4692143685838426"/>
+                <ScoreDistribution value="delay" recordCount="11.0"/>
+                <ScoreDistribution value="no delay" recordCount="205.0"/>
+              </Node>
+              <Node id="63" score="no delay" recordCount="23.0">
+                <SimplePredicate field="PCA dimension 0" operator="greaterThan" value="3.4692143685838426"/>
+                <ScoreDistribution value="delay" recordCount="6.0"/>
+                <ScoreDistribution value="no delay" recordCount="17.0"/>
+                <Node id="64" score="no delay" recordCount="11.0">
+                  <SimplePredicate field="PCA dimension 25" operator="lessOrEqual" value="0.1017200463894835"/>
+                  <ScoreDistribution value="delay" recordCount="0.0"/>
+                  <ScoreDistribution value="no delay" recordCount="11.0"/>
+                </Node>
+                <Node id="65" score="delay" recordCount="12.0">
+                  <SimplePredicate field="PCA dimension 25" operator="greaterThan" value="0.1017200463894835"/>
+                  <ScoreDistribution value="delay" recordCount="6.0"/>
+                  <ScoreDistribution value="no delay" recordCount="6.0"/>
+                  <Node id="66" score="no delay" recordCount="6.0">
+                    <SimplePredicate field="PCA dimension 16" operator="lessOrEqual" value="0.19107091688134065"/>
+                    <ScoreDistribution value="delay" recordCount="1.0"/>
+                    <ScoreDistribution value="no delay" recordCount="5.0"/>
+                  </Node>
+                  <Node id="67" score="delay" recordCount="6.0">
+                    <SimplePredicate field="PCA dimension 16" operator="greaterThan" value="0.19107091688134065"/>
+                    <ScoreDistribution value="delay" recordCount="5.0"/>
+                    <ScoreDistribution value="no delay" recordCount="1.0"/>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node id="68" score="no delay" recordCount="232.0">
+            <SimplePredicate field="PCA dimension 2" operator="greaterThan" value="-0.4842118128652516"/>
+            <ScoreDistribution value="delay" recordCount="62.0"/>
+            <ScoreDistribution value="no delay" recordCount="170.0"/>
+            <Node id="69" score="no delay" recordCount="92.0">
+              <SimplePredicate field="PCA dimension 4" operator="lessOrEqual" value="0.409796931083356"/>
+              <ScoreDistribution value="delay" recordCount="43.0"/>
+              <ScoreDistribution value="no delay" recordCount="49.0"/>
+              <Node id="70" score="no delay" recordCount="32.0">
+                <SimplePredicate field="PCA dimension 1" operator="lessOrEqual" value="-0.8266243272506588"/>
+                <ScoreDistribution value="delay" recordCount="7.0"/>
+                <ScoreDistribution value="no delay" recordCount="25.0"/>
+                <Node id="71" score="delay" recordCount="13.0">
+                  <SimplePredicate field="PCA dimension 18" operator="lessOrEqual" value="0.10058011678017423"/>
+                  <ScoreDistribution value="delay" recordCount="7.0"/>
+                  <ScoreDistribution value="no delay" recordCount="6.0"/>
+                  <Node id="72" score="no delay" recordCount="6.0">
+                    <SimplePredicate field="PCA dimension 21" operator="lessOrEqual" value="0.11377172520632223"/>
+                    <ScoreDistribution value="delay" recordCount="1.0"/>
+                    <ScoreDistribution value="no delay" recordCount="5.0"/>
+                  </Node>
+                  <Node id="73" score="delay" recordCount="7.0">
+                    <SimplePredicate field="PCA dimension 21" operator="greaterThan" value="0.11377172520632223"/>
+                    <ScoreDistribution value="delay" recordCount="6.0"/>
+                    <ScoreDistribution value="no delay" recordCount="1.0"/>
+                  </Node>
+                </Node>
+                <Node id="74" score="no delay" recordCount="19.0">
+                  <SimplePredicate field="PCA dimension 18" operator="greaterThan" value="0.10058011678017423"/>
+                  <ScoreDistribution value="delay" recordCount="0.0"/>
+                  <ScoreDistribution value="no delay" recordCount="19.0"/>
+                </Node>
+              </Node>
+              <Node id="75" score="delay" recordCount="60.0">
+                <SimplePredicate field="PCA dimension 1" operator="greaterThan" value="-0.8266243272506588"/>
+                <ScoreDistribution value="delay" recordCount="36.0"/>
+                <ScoreDistribution value="no delay" recordCount="24.0"/>
+                <Node id="76" score="delay" recordCount="27.0">
+                  <SimplePredicate field="PCA dimension 10" operator="lessOrEqual" value="0.07803680001680328"/>
+                  <ScoreDistribution value="delay" recordCount="23.0"/>
+                  <ScoreDistribution value="no delay" recordCount="4.0"/>
+                </Node>
+                <Node id="81" score="no delay" recordCount="33.0">
+                  <SimplePredicate field="PCA dimension 10" operator="greaterThan" value="0.07803680001680328"/>
+                  <ScoreDistribution value="delay" recordCount="13.0"/>
+                  <ScoreDistribution value="no delay" recordCount="20.0"/>
+                  <Node id="82" score="delay" recordCount="6.0">
+                    <SimplePredicate field="PCA dimension 16" operator="lessOrEqual" value="-0.9400081736961134"/>
+                    <ScoreDistribution value="delay" recordCount="6.0"/>
+                    <ScoreDistribution value="no delay" recordCount="0.0"/>
+                  </Node>
+                  <Node id="83" score="no delay" recordCount="27.0">
+                    <SimplePredicate field="PCA dimension 16" operator="greaterThan" value="-0.9400081736961134"/>
+                    <ScoreDistribution value="delay" recordCount="7.0"/>
+                    <ScoreDistribution value="no delay" recordCount="20.0"/>
+                    <Node id="84" score="no delay" recordCount="15.0">
+                      <SimplePredicate field="PCA dimension 15" operator="lessOrEqual" value="0.6709554495108715"/>
+                      <ScoreDistribution value="delay" recordCount="1.0"/>
+                      <ScoreDistribution value="no delay" recordCount="14.0"/>
+                    </Node>
+                    <Node id="87" score="delay" recordCount="12.0">
+                      <SimplePredicate field="PCA dimension 15" operator="greaterThan" value="0.6709554495108715"/>
+                      <ScoreDistribution value="delay" recordCount="6.0"/>
+                      <ScoreDistribution value="no delay" recordCount="6.0"/>
+                      <Node id="88" score="delay" recordCount="6.0">
+                        <SimplePredicate field="PCA dimension 27" operator="lessOrEqual" value="0.6254361261498531"/>
+                        <ScoreDistribution value="delay" recordCount="5.0"/>
+                        <ScoreDistribution value="no delay" recordCount="1.0"/>
+                      </Node>
+                      <Node id="89" score="no delay" recordCount="6.0">
+                        <SimplePredicate field="PCA dimension 27" operator="greaterThan" value="0.6254361261498531"/>
+                        <ScoreDistribution value="delay" recordCount="1.0"/>
+                        <ScoreDistribution value="no delay" recordCount="5.0"/>
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node id="90" score="no delay" recordCount="140.0">
+              <SimplePredicate field="PCA dimension 4" operator="greaterThan" value="0.409796931083356"/>
+              <ScoreDistribution value="delay" recordCount="19.0"/>
+              <ScoreDistribution value="no delay" recordCount="121.0"/>
+              <Node id="91" score="no delay" recordCount="133.0">
+                <SimplePredicate field="PCA dimension 1" operator="lessOrEqual" value="2.669175741807656"/>
+                <ScoreDistribution value="delay" recordCount="14.0"/>
+                <ScoreDistribution value="no delay" recordCount="119.0"/>
+                <Node id="92" score="no delay" recordCount="21.0">
+                  <SimplePredicate field="PCA dimension 10" operator="lessOrEqual" value="-0.6799081477192553"/>
+                  <ScoreDistribution value="delay" recordCount="6.0"/>
+                  <ScoreDistribution value="no delay" recordCount="15.0"/>
+                  <Node id="93" score="no delay" recordCount="15.0">
+                    <SimplePredicate field="PCA dimension 1" operator="lessOrEqual" value="0.6650789836054635"/>
+                    <ScoreDistribution value="delay" recordCount="2.0"/>
+                    <ScoreDistribution value="no delay" recordCount="13.0"/>
+                  </Node>
+                  <Node id="96" score="delay" recordCount="6.0">
+                    <SimplePredicate field="PCA dimension 1" operator="greaterThan" value="0.6650789836054635"/>
+                    <ScoreDistribution value="delay" recordCount="4.0"/>
+                    <ScoreDistribution value="no delay" recordCount="2.0"/>
+                  </Node>
+                </Node>
+                <Node id="97" score="no delay" recordCount="112.0">
+                  <SimplePredicate field="PCA dimension 10" operator="greaterThan" value="-0.6799081477192553"/>
+                  <ScoreDistribution value="delay" recordCount="8.0"/>
+                  <ScoreDistribution value="no delay" recordCount="104.0"/>
+                </Node>
+              </Node>
+              <Node id="106" score="delay" recordCount="7.0">
+                <SimplePredicate field="PCA dimension 1" operator="greaterThan" value="2.669175741807656"/>
+                <ScoreDistribution value="delay" recordCount="5.0"/>
+                <ScoreDistribution value="no delay" recordCount="2.0"/>
+              </Node>
+            </Node>
+          </Node>
+        </Node>
+      </Node>
+      <Node id="1" score="delay" recordCount="142.0">
+        <SimplePredicate field="PCA dimension 2" operator="greaterThan" value="1.8126145573015884"/>
+        <ScoreDistribution value="delay" recordCount="104.0"/>
+        <ScoreDistribution value="no delay" recordCount="38.0"/>
+        <Node id="3" score="delay" recordCount="71.0">
+          <SimplePredicate field="PCA dimension 4" operator="lessOrEqual" value="0.24485047236342186"/>
+          <ScoreDistribution value="delay" recordCount="67.0"/>
+          <ScoreDistribution value="no delay" recordCount="4.0"/>
+        </Node>
+        <Node id="10" score="delay" recordCount="71.0">
+          <SimplePredicate field="PCA dimension 4" operator="greaterThan" value="0.24485047236342186"/>
+          <ScoreDistribution value="delay" recordCount="37.0"/>
+          <ScoreDistribution value="no delay" recordCount="34.0"/>
+          <Node id="11" score="no delay" recordCount="49.0">
+            <SimplePredicate field="PCA dimension 7" operator="lessOrEqual" value="0.3299032370191112"/>
+            <ScoreDistribution value="delay" recordCount="17.0"/>
+            <ScoreDistribution value="no delay" recordCount="32.0"/>
+            <Node id="12" score="no delay" recordCount="43.0">
+              <SimplePredicate field="PCA dimension 8" operator="lessOrEqual" value="1.3521278807879187"/>
+              <ScoreDistribution value="delay" recordCount="11.0"/>
+              <ScoreDistribution value="no delay" recordCount="32.0"/>
+              <Node id="13" score="delay" recordCount="13.0">
+                <SimplePredicate field="PCA dimension 23" operator="lessOrEqual" value="-0.389256634439456"/>
+                <ScoreDistribution value="delay" recordCount="8.0"/>
+                <ScoreDistribution value="no delay" recordCount="5.0"/>
+                <Node id="14" score="no delay" recordCount="6.0">
+                  <SimplePredicate field="PCA dimension 27" operator="lessOrEqual" value="-0.06557967957028701"/>
+                  <ScoreDistribution value="delay" recordCount="2.0"/>
+                  <ScoreDistribution value="no delay" recordCount="4.0"/>
+                </Node>
+                <Node id="15" score="delay" recordCount="7.0">
+                  <SimplePredicate field="PCA dimension 27" operator="greaterThan" value="-0.06557967957028701"/>
+                  <ScoreDistribution value="delay" recordCount="6.0"/>
+                  <ScoreDistribution value="no delay" recordCount="1.0"/>
+                </Node>
+              </Node>
+              <Node id="16" score="no delay" recordCount="30.0">
+                <SimplePredicate field="PCA dimension 23" operator="greaterThan" value="-0.389256634439456"/>
+                <ScoreDistribution value="delay" recordCount="3.0"/>
+                <ScoreDistribution value="no delay" recordCount="27.0"/>
+              </Node>
+            </Node>
+            <Node id="19" score="delay" recordCount="6.0">
+              <SimplePredicate field="PCA dimension 8" operator="greaterThan" value="1.3521278807879187"/>
+              <ScoreDistribution value="delay" recordCount="6.0"/>
+              <ScoreDistribution value="no delay" recordCount="0.0"/>
+            </Node>
+          </Node>
+          <Node id="20" score="delay" recordCount="22.0">
+            <SimplePredicate field="PCA dimension 7" operator="greaterThan" value="0.3299032370191112"/>
+            <ScoreDistribution value="delay" recordCount="20.0"/>
+            <ScoreDistribution value="no delay" recordCount="2.0"/>
+          </Node>
+        </Node>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>

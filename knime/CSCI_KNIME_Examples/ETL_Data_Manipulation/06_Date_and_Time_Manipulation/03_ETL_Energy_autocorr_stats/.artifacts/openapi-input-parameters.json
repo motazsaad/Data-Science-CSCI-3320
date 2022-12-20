@@ -1,0 +1,25 @@
+
+{
+    "type": "object",
+    "properties": {
+        "int-input-139:117": {
+            "type": "integer",
+            "default": 100,
+            "description": "Enter Description",
+            "example": 100
+        },
+        "column-selection-138:113": {
+            "type": "object",
+            "properties": {
+                "column": {
+                    "type": "string",
+                    "default": "1038"
+                }
+            },
+            "description": "Enter Description",
+            "example": {
+                "column": "1038"
+            }
+        }
+    }
+}

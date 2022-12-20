@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">rosy</met:element>
+<met:element form="date" read-only="false" name="Creation Date">31/0/2017/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Workflow to show Column Filter examples  
+
+This workflow is based on adult.csv data set and demonstrates column filter examples using manual selection with a Column Filter node or using a Reference Column Filter node.&#13;
+Exercises:&#13;
+1. remove column "marital-status"&#13;
+2. keep only column "marital-status" &#13;
+3. keep only String columns using a Column Filter node and then only column "marital-status" using a reference table and a Reference Column Filter node&#13;
+&#13;
+
+
+TAGS: column filter,ETL,column filtering</met:element>
+</met:KNIMEMetaInfo>

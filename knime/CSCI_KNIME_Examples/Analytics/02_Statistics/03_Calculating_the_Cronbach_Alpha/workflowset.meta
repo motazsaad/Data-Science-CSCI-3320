@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">Adrian Nembach</met:element>
+  <met:element form="date" name="Creation Date">9/11/2015/10:56:24 +01:00</met:element>
+  <met:element form="multiline" name="Comments">How to use the Cronbach nodes
+
+This workflow shows how to calculate the Cronbach Alpha measure and Standardized Cronbach Alpha measure for the Iris dataset.
+
+URL: Wikipedia enty for Cronbach's Alpha https://en.wikipedia.org/wiki/Cronbach%27s_alpha</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2016-08-19 10:36:37 +0000</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2016-03-22 18:07:45 +0100</met:element>
+</met:KNIMEMetaInfo>

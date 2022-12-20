@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="5"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="35"/>
+        <entry key="1" type="xint" value="58"/>
+        <entry key="2" type="xint" value="49"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.88"/>
+        <entry key="1" type="xdouble" value="3.0657142857142854"/>
+        <entry key="2" type="xdouble" value="5.739999999999998"/>
+        <entry key="3" type="xdouble" value="2.028571428571428"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.862068965517241"/>
+        <entry key="1" type="xdouble" value="2.727586206896552"/>
+        <entry key="2" type="xdouble" value="4.382758620689655"/>
+        <entry key="3" type="xdouble" value="1.4310344827586208"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.004081632653061"/>
+        <entry key="1" type="xdouble" value="3.416326530612245"/>
+        <entry key="2" type="xdouble" value="1.4653061224489798"/>
+        <entry key="3" type="xdouble" value="0.2428571428571428"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xstring" value="sepal length"/>
+        <entry key="1" type="xstring" value="sepal width"/>
+        <entry key="2" type="xstring" value="petal length"/>
+        <entry key="3" type="xstring" value="petal width"/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

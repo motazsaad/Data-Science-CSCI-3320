@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="expressions">
+            <config key="element 0">
+                <entry key="expression" type="xstring" value="replace(getFileName(column(&quot;clusterSourceFilePath&quot;)), getFileExtension(column(&quot;clusterSourceFilePath&quot;)),&quot;-&quot;) // extracts the name of the source file and replace the file extension with -%%00010+ replaceChars(now(), &quot;-:.&quot;, &quot;___&quot;) // gets the current time and replaces -:. with _ to create a valid file name%%00010+ getFileExtension(column(&quot;clusterSourceFilePath&quot;)) // extracts the extension of the source file"/>
+                <entry key="outputName" type="xstring" value="destinationFileName"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="count" type="xint" value="1"/>
+        <entry key="failOnInvalidAccess" type="xboolean" value="true"/>
+        <entry key="failOnScriptError" type="xboolean" value="false"/>
+        <entry key="multiRowAccessWindowSize" type="xint" value="0"/>
+        <entry key="multiRowAccessReturnFirstLastWhenOutOfBounds" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Create  zip entry name %%00013%%00010based on original file name%%00013%%00010and timestamp"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="197"/>
+        <entry key="y-coordinate" type="xint" value="411"/>
+        <entry key="width" type="xint" value="155"/>
+        <entry key="height" type="xint" value="45"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.expressions.base.node.formulas.FormulasNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Expressions"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Expression Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.expressions.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.0.v202205241001"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Expressions"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.expressions.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.0.v202205241952"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Expressions"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 2"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="e15d6360-1617-45b0-a8e7-fb02765e1bd5"/>
+    </config>
+</config>
